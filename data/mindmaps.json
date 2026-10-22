@@ -1,0 +1,463 @@
+{
+  "mindmaps": [
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-AAA7",
+      "map_id": "MM-FW-AAA7",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 Specific Examinable Knowledge Reference",
+      "title": "American Accounting Association 7-Step Ethical Model — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-APV",
+      "map_id": "MM-FW-APV",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Adjusted Present Value (APV) — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-BCG",
+      "map_id": "MM-FW-BCG",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 Specific Examinable Knowledge Reference",
+      "title": "Boston Consulting Group Matrix — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-BREAKEVEN",
+      "map_id": "MM-FW-BREAKEVEN",
+      "source_ref": "Supplementary business framework — examinability not verified for current ICAP syllabus",
+      "title": "Breakeven and CVP Analysis — mind map",
+      "verification_status": "supplementary"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-CAPAPP",
+      "map_id": "MM-FW-CAPAPP",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Capital Investment Appraisal Techniques — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-CAPM",
+      "map_id": "MM-FW-CAPM",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 and CFAP-4 Specific Examinable Knowledge References",
+      "title": "Capital Asset Pricing Model (CAPM) — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-CREDITRISK",
+      "map_id": "MM-FW-CREDITRISK",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Credit Risk Management — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-EV",
+      "map_id": "MM-FW-EV",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Enterprise Value vs Equity Value — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-HEDGE",
+      "map_id": "MM-FW-HEDGE",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 and CFAP-4 Specific Examinable Knowledge References",
+      "title": "Hedging Financial Risks — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-IRR",
+      "map_id": "MM-FW-IRR",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 and CFAP-4 Specific Examinable Knowledge References",
+      "title": "Internal Rate of Return (IRR) — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-LIQRISK",
+      "map_id": "MM-FW-LIQRISK",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Liquidity Risk Management — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-NPV",
+      "map_id": "MM-FW-NPV",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 and CFAP-4 Specific Examinable Knowledge References",
+      "title": "Net Present Value (NPV) — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-PAYBACK",
+      "map_id": "MM-FW-PAYBACK",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 and CFAP-4 Specific Examinable Knowledge References",
+      "title": "Payback Period — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-PESTEL",
+      "map_id": "MM-FW-PESTEL",
+      "source_ref": "Supplementary business framework — examinability not verified for current ICAP syllabus",
+      "title": "PESTEL Analysis — mind map",
+      "verification_status": "supplementary"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-PLC",
+      "map_id": "MM-FW-PLC",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 Specific Examinable Knowledge Reference",
+      "title": "Product Life Cycle Model — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-PORTER5",
+      "map_id": "MM-FW-PORTER5",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 Specific Examinable Knowledge Reference",
+      "title": "Porter's Five Forces Model — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-PORTFOLIO",
+      "map_id": "MM-FW-PORTFOLIO",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Portfolio Selection Theory — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-RATIO",
+      "map_id": "MM-FW-RATIO",
+      "source_ref": "Supplementary business framework — examinability not verified for current ICAP syllabus",
+      "title": "Ratio Analysis — mind map",
+      "verification_status": "supplementary"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-RISKISO",
+      "map_id": "MM-FW-RISKISO",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 Specific Examinable Knowledge Reference",
+      "title": "ISO 31000 Risk Management — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-SCENARIO",
+      "map_id": "MM-FW-SCENARIO",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Scenario Planning and Analysis — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-SENS",
+      "map_id": "MM-FW-SENS",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Sensitivity Analysis — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-SWOT",
+      "map_id": "MM-FW-SWOT",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 Specific Examinable Knowledge Reference",
+      "title": "SWOT Analysis — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-TUCKER5",
+      "map_id": "MM-FW-TUCKER5",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 Specific Examinable Knowledge Reference",
+      "title": "Tucker's 5-Question Ethical Model — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-VALUATION",
+      "map_id": "MM-FW-VALUATION",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CFAP-4 Specific Examinable Knowledge Reference",
+      "title": "Business Valuation Techniques — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-VALUECHAIN",
+      "map_id": "MM-FW-VALUECHAIN",
+      "source_ref": "Supplementary business framework — examinability not verified for current ICAP syllabus",
+      "title": "Value Chain Analysis — mind map",
+      "verification_status": "supplementary"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-WACC",
+      "map_id": "MM-FW-WACC",
+      "source_ref": "ICAP Directive 1.01 (Revised 2024), CAF-6 and CFAP-4 Specific Examinable Knowledge References",
+      "title": "Weighted Average Cost of Capital (WACC) — mind map",
+      "verification_status": "verified_official"
+    },
+    {
+      "branch_order_json": [
+        "definition",
+        "purpose",
+        "when_to_use",
+        "required_inputs",
+        "steps",
+        "limitations",
+        "common_mistakes",
+        "example"
+      ],
+      "framework_id": "FW-WCAP",
+      "map_id": "MM-FW-WCAP",
+      "source_ref": "Supplementary business framework — examinability not verified for current ICAP syllabus",
+      "title": "Working Capital Management — mind map",
+      "verification_status": "supplementary"
+    }
+  ]
+}

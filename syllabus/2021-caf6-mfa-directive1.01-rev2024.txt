@@ -1,0 +1,120 @@
+                                    CAF-6 MANAGERIAL AND FINANCIAL ANALYSIS
+ Competency
+ Apply business and financial analysis on business problems.
+
+
+    Syllabus                                             Grid                                Teaching           Weightage
+      Ref.                                                                                    Hours
+        A            Managerial Analysis                                                      40-45                30-40
+        B            Financial Analysis and Risk Management                                   45-55                30-40
+        C            Budgeting                                                                25-30                25-35
+                                                                                   Total     110-130                 100
+
+                                                 Key Examinable Technical Competencies
+
+  Syllabus         Contents                                                                Proficiency        Testing level
+    Ref.                                                                                      level
+       A           Managerial Analysis
+       a           External Analysis
+        1          Analyze impacts of political, legal and social environment on a
+                                                                                               P2                    T2
+                   business organization.
+        2          Analyze technological disruption and opportunities for a
+                                                                                               P2                    T2
+                   business organization.
+        3          Analyze impacts of economic environment on a business
+                                                                                               P2                    T2
+                   organization.
+        4          Analyze impacts of competitive environment on a business
+                                                                                               P2                    T2
+                   organization.
+        b          Internal Analysis
+        1          Analyze the internal environment of an organization.                        P2                    T2
+        2          Explain the adequacy of manual and technology-based systems,
+                   processes and controls for collecting, generating, storing,                 P2                    T2
+                   assessing, using or sharing data and information.
+                   Apply Information and Communication Technologies to
+        3          enhance the efficiency and effectiveness of an organization’s               P2                    T2
+                   systems.
+        c          Ethical Decision making
+        1          Analyze a business situation using ethical-decision making                  P2                    T2
+                   models.
+       B           Financial Analysis and Risk Management
+                   Discuss various sources of finance including debt, equity and
+        1                                                                                      P1                    T1
+                   Islamic finance.
+                   Compute Cost of equity, cost of debt and the weighted average
+        2                                                                                      P2                    T1
+                   cost of capital.
+                   Analyze capital asset’s sensitivity to systematic risk, expected
+        3                                                                                      P2                    T2
+                   return of market and risk-free assets.
+
+
+Education and Training Scheme 2021                                                                                              33
+Directive 1.01 (Revised 2024)                                                       The Institute of Chartered Accountants of Pakistan
+
+
+  Syllabus         Contents                                                                 Proficiency          Testing level
+    Ref.                                                                                       level
+          4        Apply risk management techniques on business entities.                         P2                    T2
+                   Apply financial risk management techniques on business
+          5                                                                                       P2                    T2
+                   entities.
+        C          Budgeting
+        1          Prepare budget using external and internal analysis and                        P2                    T2
+                   quantitative techniques.
+        2          Analyze an organization’s cash flow and working capital                        P2                    T2
+                   requirements.
+        3          Compute NPV, IRR and Payback for a given project                               P2                    T2
+
+                                               Key Examinable Professional Skills
+
+          1          Evaluate data and information from variety of sources and perspective through integration and
+                     analysis.
+          2          Apply critical thinking skills to solve problems, inform judgements, make decisions and reach
+                     well-reasoned conclusions
+          3          Communicate clearly and concisely when presenting, discussing and reporting in formal and
+                     informal situations
+          4          Respond effectively to changing circumstances or new information to solve problems, inform
+                     judgements, make decisions, and reach well-reasoned conclusions.
+
+                                     Key Examinable Professional Values, Ethics and Attitude
+
+       1           Apply an inquiring mind when collecting and assessing data and information
+       2           Apply critical thinking when identifying and evaluating alternatives to determine an appropriate
+                   course of action.
+
+                                           Specific Examinable Knowledge Reference
+
+      1         SWOT Analysis
+      2         Porter’s Five Forces Model
+      3         Product Life Cycle Model
+      4         Boston Consulting Group Matrix
+      5         Ethical decision making - Tucker’s 5-question Model (Presented by Graham Tucker)
+      6         Ethical decision making - American Accounting Association 7-step Model
+      7         ISO 31000 Risk management — Guidelines issued by International Standardization Organization
+      8         Capital Asset Pricing Model
+      9         Hedging interest rate: Futures, Options and Forward agreement excluding hedge efficiency
+     10         Hedging Foreign Exchange: Currency futures, Options, Forward and Money Market hedge excluding
+                hedge efficiency
+     11         Commodity and security: Forward and future contracts
+
+
+
+
+Education and Training Scheme 2021                                                                                                 34
+The Institute of Chartered Accountants of Pakistan                                                           Directive 1.01 (Revised 2024)
+
+
+                                                         CAF-7: COMPANY LAW
+ Competency
+ Apply laws and regulations that govern limited and unlimited liability companies.
+
+
+   Syllabus        Grid                                                                               Teaching         Weightage
+     Ref.                                                                                              Hours
+       A           Incorporation and Issuance of Shares                                                 15-20              15-20
+       B           Management and Administration                                                        35-38              20-25
+       C           Meetings and Proceedings, Directors and Chief Executive                              35-40              20-30
+       D           Accounts and Dividends                                                               10-12              15-20

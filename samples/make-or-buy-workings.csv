@@ -1,0 +1,11 @@
+Make-or-buy comparison
+Step,Detail
+1,"Make: 100,000.00 × 12.00 + 500,000.00 (specific fixed) + 200,000.00 (opportunity) = 1,900,000.00"
+2,"Buy: 100,000.00 × 18.00 = 1,800,000.00"
+3,"Saving from making = 1,800,000.00 − 1,900,000.00 = -100,000.00"
+Result: total_make_cost,1900000.00
+Result: total_buy_cost,1800000.00
+Result: saving_from_making,-100000.00
+Result unit,currency (all amounts)
+Interpretation,"Making in-house is cheaper by -100,000.00 -- prefer buying on cost grounds. Confirm quality, reliability and strategic considerations before switching."
+

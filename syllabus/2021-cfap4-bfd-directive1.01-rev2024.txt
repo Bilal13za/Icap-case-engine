@@ -1,0 +1,110 @@
+                                     CFAP-4: BUSINESS FINANCE DECISIONS
+ Competency
+ Apply technical knowledge and skills in strategic financial decision making, and formulating and implementing
+ organizational financial strategies.
+
+
+
+ Syllabus                                                                                         Teaching
+                  Grid                                                                                               Weightage
+ Ref                                                                                               hours
+      1           Business Appraisals and Securities                                                50-55                40-60
+      2           Capital and its Sources                                                           35-40                25-30
+      3           Financial Risk Management                                                         25-35                20-25
+                  Total                                                                           110-130                 100
+
+                                            Key Examinable Technical Competencies
+
+   Syllabus                                                                                      Proficiency             Testing
+                   Learning Outcomes
+     Ref                                                                                            Level                 Level
+        A          Business Appraisals and Securities
+        1          Prepare financial appraisals on business valuation.                                 P3                   T3
+                   Prepare financial appraisals on acquisitions, mergers, demergers,
+        2                                                                                              P3                   T3
+                   spin off and spin out.
+        3          Prepare financial appraisals on new projects and strategies.                        P3                   T3
+                   Analyze shareholder value considering dividend and investment
+        4                                                                                              P2                   T2
+                   decisions.
+        5          Determine debt value using different techniques.                                    P3                   T2
+        B          Capital and its Sources
+                   Advise on raising capital from various sources of financing available
+        1          to an organization based on the qualitative and quantitative                        P3                   T3
+                   evaluation.
+                   Apply capital budgeting and rationing techniques in the evaluation
+        2                                                                                              P2                   T2
+                   of capital investment decisions.
+        3          Prepare appraisals for optimal portfolio selection.                                 P3                   T2
+        C          Financial Risk Management
+        1          Assess and manage price, currency , interest, liquidity and credit
+                                                                                                       P3                   T3
+                   risks
+        2          Evaluate the implications of price, currency , interest, liquidity and
+                                                                                                       P3                   T3
+                   credit risks on business
+
+
+
+
+Education and Training Scheme 2021                                                                                                   74
+The Institute of Chartered Accountants of Pakistan                                                    Directive 1.01 (Revised 2024)
+
+                                                     Key Examinable Professional Skills
+
+                  Evaluate data and information from a variety of sources and perspectives through research,
+       1
+                  integration, and analysis.
+                  Communicate clearly and concisely when presenting, discussing and reporting in formal and
+       2
+                  informal situations.
+                  Respond effectively to changing circumstances or new information to solve problems, inform
+       3
+                  judgements, make decisions, and reach well-reasoned conclusions
+
+                                      Key Examinable Professional Values, Ethics and Attitude
+
+        1          Apply an inquiring mind when collecting and assessing data and information.
+        2          Apply techniques to reduce bias, when solving problems, informing judgements, making decisions
+                   and reaching well-reasoned conclusions.
+        3          Apply critical thinking when identifying and evaluating alternatives to determine an appropriate
+                   course of action.
+
+                                                Specific Examinable Knowledge Reference
+
+       1          Capital Investment Appraisal Techniques - NPV, APV, IRR, MIRR, EIRR, payback, capital rationing,
+                  profitability index, scenario planning and replacement and sensitivity analysis
+       2          Valuation techniques - Dividend yield, Price earning, discounted cash flows, asset based valuation
+                  techniques
+       3          Arbitrage Pricing Theory (APT)
+       4          Weighted average cost of capital (WACC)
+      4.1         Cost and market value of the equity-dividend discount model, CAPM model, Free cashflows model
+      4.2         Cost and market value of debt - Effective interest cost discounting model, spot and yield to
+                  maturity or yield to call.
+      4.3         Shareholder value - Dividend payout, dividend irrelevant theory, the impact of right issue including
+                  yield adjusted theoretical ex-right price, effect on effective holding and maintenance of wealth
+      4.4         Capital Structure theory
+    4.4(a)        Tradition theory of capital structure
+    4.4(b)        Modigliani and Miller theory - valuation, capital structure, profit distribution, cost of capital and
+                  arbitrage gains in case of mispriced securities, optimal capital structure
+       5          Portfolio selection – Diversifiable and non-diversifiable risks, the concept of correlation and
+                  covariance and two, three and multiple asset portfolio
+       6          Capital Asset Pricing Model – Cost of equity, ungearing and re-gearing beta, under and overvalued
+                  securities based on security market line (SML)
+       7          Hedging interest rate : Futures, Options, Swaps, Swaptions and Forward agreement
+       8          Hedging Foreign Exchange : Currency futures, Swaps, Options, Forward, Swaptions and Money
+                  Market hedge
+       9          Commodity and security: Forward and future contracts
+      10          Liquidity risk management through liquidity indicators, stress testing, forecasting, contingency
+                  planning.
+      11          Credit risk management through financial and non-financial analysis, factoring and insurance
+
+
+
+
+Education and Training Scheme 2021                                                                                              75
+Directive 1.01 (Revised 2024)                                                        The Institute of Chartered Accountants of Pakistan
+
+
+                                     CFAP-5: TAX PLANNING AND PRACTICES
+ Competency

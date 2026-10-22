@@ -1,0 +1,30 @@
+Receivable days
+Step,Detail
+1,"Receivable days = 120,000.00 ÷ 1,460,000.00 × 365.00 = 30.00 days"
+Result,30.00 days
+Interpretation,Customers take on average 30.00 days to pay. Compare with credit terms: a rising figure ties up cash and may signal collection problems.
+
+Inventory days
+Step,Detail
+1,"Inventory days = 200,000.00 ÷ 1,100,000.00 × 365.00 = 66.36 days"
+Result,66.36 days
+Interpretation,Inventory sits on average 66.36 days before sale. A rising figure absorbs cash and may hide obsolete stock.
+
+Payable days
+Step,Detail
+1,"Payable days = 90,000.00 ÷ 800,000.00 × 365.00 = 41.06 days"
+Result,41.06 days
+Interpretation,The business takes on average 41.06 days to pay suppliers. Stretching payables frees cash but risks supplier relationships.
+
+Cash conversion cycle
+Step,Detail
+1,CCC = 30.00 + 66.36 − 41.06 = 55.30 days
+Result,55.30 days
+Interpretation,Cash is tied up for 55.30 days between paying suppliers and collecting from customers. A lengthening cycle is an early warning of working-capital pressure.
+
+Current ratio
+Step,Detail
+1,"Current ratio = 500,000.00 ÷ 420,000.00 = 1.19:1"
+Result,1.19 times
+Interpretation,Current assets cover current liabilities 1.19 times. Below 1.0 signals potential difficulty meeting short-term obligations.
+

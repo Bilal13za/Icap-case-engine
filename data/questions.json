@@ -1,0 +1,1008 @@
+{
+ "questions": [
+  {
+   "question_id": "Q-CAF-01",
+   "paper_code": "CAF-7",
+   "topic_ref": "A-a",
+   "syllabus_ref": "A-a",
+   "question_text": "Crescent Denim (Pvt) Ltd is a Karachi-based denim exporter selling mainly to two\nEuropean retail chains. In the last six months: the Pakistani rupee depreciated\n12% against the euro; one key buyer has asked all suppliers to obtain an\ninternational sustainability certification within a year; floods damaged part of\nthe domestic cotton crop, pushing local yarn prices up 9%; and a Faisalabad\ncompetitor has installed automated looms that cut its unit cost by an estimated\n15%.\n\nRequired:\n(a) Prepare a SWOT analysis for Crescent Denim. (4 marks)\n(b) For each quadrant of the SWOT, state one strategic implication for the\ncompany. (4 marks)",
+   "difficulty": "Foundational",
+   "marks": 8,
+   "suggested_minutes": 14,
+   "required_skills": "External analysis; structured presentation of findings.",
+   "expected_answer_elements": "Four correctly classified SWOT points per quadrant (at least two per quadrant is ideal but one well-justified point per quadrant earns credit); one linked strategic implication per quadrant.",
+   "calculation_requirements": "None - qualitative analysis.",
+   "common_mistakes": "Listing facts without classifying them into S/W/O/T; confusing internal vs external factors (e.g. putting competitor actions under 'weaknesses'); generic implications not linked to the facts.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-02",
+   "paper_code": "CAF-7",
+   "topic_ref": "B-1",
+   "syllabus_ref": "B-1",
+   "question_text": "For each of the following independent situations, identify the most suitable\nsource of finance and give one reason for your choice:\n(i) A retail startup needs Rs 2 million for three months to fund seasonal Eid\nstock.\n(ii) A manufacturer needs Rs 80 million for a 10-year production plant.\n(iii) A trader wants Shariah-compliant working-capital finance of Rs 10 million\nfor six months.\n\n(5 marks)",
+   "difficulty": "Foundational",
+   "marks": 5,
+   "suggested_minutes": 9,
+   "required_skills": "Knowledge of sources of finance and matching source to need.",
+   "expected_answer_elements": "One suitable source per situation with a valid reason (term match, cost, Shariah compliance).",
+   "calculation_requirements": "None.",
+   "common_mistakes": "Recommending long-term finance for a short-term need (maturity mismatch); naming 'bank loan' without specifying type; ignoring the Shariah requirement in (iii).",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-03",
+   "paper_code": "CAF-7",
+   "topic_ref": "C-2",
+   "syllabus_ref": "C-2",
+   "question_text": "Extracts from the financial statements of Packages Trading Ltd:\n- Trade receivables Rs 45 million; revenue Rs 270 million\n- Inventories Rs 60 million; cost of sales Rs 240 million\n- Trade payables Rs 40 million; purchases Rs 200 million\nThe cash conversion cycle for the previous year was 38 days.\n\nRequired:\n(a) Calculate the receivables days, inventory days, payables days and the cash\nconversion cycle for the current year. (6 marks)\n(b) Comment on the trend and recommend two actions management should take.\n(6 marks)",
+   "difficulty": "Intermediate",
+   "marks": 12,
+   "suggested_minutes": 22,
+   "required_skills": "Working-capital ratio computation and interpretation.",
+   "expected_answer_elements": "Receivables days ~61, inventory days ~91 (use 365 days), payables days 73, CCC ~79 days; comparison with 38 days prior year; two practical actions.",
+   "calculation_requirements": "Use 365 days. Receivables days = 45/270*365 = 60.8; inventory days = 60/240*365 = 91.3; payables days = 40/200*365 = 73.0; CCC = 60.8+91.3-73.0 = 79.1 days.",
+   "common_mistakes": "Using revenue instead of purchases for payables days; using year-end balances without noting the limitation; recommending actions that do not address the deterioration (e.g. 'increase sales').",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-04",
+   "paper_code": "CAF-7",
+   "topic_ref": "C-3",
+   "syllabus_ref": "C-3",
+   "question_text": "Horizon Foods is considering a replacement packaging machine costing Rs 12\nmillion with a 5-year life and no residual value. It is expected to generate\nannual net cash inflows of Rs 3.8 million. The company's cost of capital is 12%.\n\nRequired:\n(a) Calculate the net present value, the internal rate of return (to the nearest\n1%) and the payback period. (11 marks)\n(b) Recommend whether the machine should be purchased, stating one relevant\nnon-financial factor. (4 marks)",
+   "difficulty": "Intermediate",
+   "marks": 15,
+   "suggested_minutes": 27,
+   "required_skills": "Investment appraisal computations and recommendation.",
+   "expected_answer_elements": "NPV approx +Rs 1.70m; IRR approx 18%; payback approx 3.2 years; accept decision with a non-financial factor (training, reliability, quality).",
+   "calculation_requirements": "Annuity factor 5 yrs @12% = 3.6048; trial rates for IRR: @18% annuity 3.1272, @17% annuity 3.1993 - interpolate.",
+   "common_mistakes": "Discounting the Rs 12m cost (it is at time 0); using accounting profit instead of cash flows; recommending on payback alone without NPV.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-05",
+   "paper_code": "CAF-7",
+   "topic_ref": "A-a-4",
+   "syllabus_ref": "A-a-4",
+   "question_text": "You are advising a startup planning to launch a food-delivery app in Karachi.\nThe market has two dominant incumbents; customers switch apps freely for small\ndiscounts; thousands of riders are available for hire; restaurants list on all\nplatforms and can delist easily; dine-in and home cooking are alternatives.\n\nRequired: Apply Porter's Five Forces to this market and conclude whether it is\nattractive for a new entrant. (10 marks)",
+   "difficulty": "Intermediate",
+   "marks": 10,
+   "suggested_minutes": 18,
+   "required_skills": "Application of Porter's Five Forces to a service market.",
+   "expected_answer_elements": "All five forces assessed with case-specific justification; a reasoned overall conclusion on attractiveness.",
+   "calculation_requirements": "None - qualitative framework application.",
+   "common_mistakes": "Describing the framework in the abstract without applying it to the facts; omitting one or more forces; concluding without linking back to the force assessments.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-06",
+   "paper_code": "CAF-7",
+   "topic_ref": "A+C-2",
+   "syllabus_ref": "A+C-2",
+   "question_text": "Al-Noor Ceramics Ltd: over three years, gross margin fell from 18% to 11%,\nreceivables days doubled from 35 to 70, finished-goods inventory is piling up,\nand a low-cost imported brand has entered the market. The managing director\nbelieves the problem is 'just the economy'.\n\nRequired:\n(a) Analyse the company's external and internal environment. (8 marks)\n(b) Diagnose the financial position using the information given. (6 marks)\n(c) Propose two strategic options, evaluating each briefly. (6 marks)",
+   "difficulty": "Advanced",
+   "marks": 20,
+   "suggested_minutes": 36,
+   "required_skills": "Integrated business analysis; linking external, internal and financial evidence; option evaluation.",
+   "expected_answer_elements": "Structured external (PESTLE/Porter) and internal analysis; financial diagnosis (margin erosion + working-capital strain = liquidity risk); two distinct, evaluated options.",
+   "calculation_requirements": "Receivables days trend; margin trend - interpret, do not just restate.",
+   "common_mistakes": "Agreeing with the MD that it is 'just the economy'; treating symptoms (separately) rather than linking margin erosion to working-capital strain; proposing only one option or options that are effectively the same.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-07",
+   "paper_code": "CAF-7",
+   "topic_ref": "B-3",
+   "syllabus_ref": "B-3",
+   "question_text": "The risk-free rate (Pakistan T-bill yield) is 12%, the expected market return\nis 20%, and the equity beta of Lucky Cement's shares is 1.3.\n\nRequired:\n(a) Calculate the expected return using the CAPM. (3 marks)\n(b) Explain what the beta of 1.3 means. (3 marks)\n(c) What would the expected return be if beta were 0.7? (2 marks)",
+   "difficulty": "Foundational",
+   "marks": 8,
+   "suggested_minutes": 14,
+   "required_skills": "CAPM computation and interpretation of beta.",
+   "expected_answer_elements": "Expected return 22.4%; beta > 1 means more volatile than the market; recomputation 17.6%.",
+   "calculation_requirements": "CAPM: Ke = Rf + beta x (Rm - Rf).",
+   "common_mistakes": "Using (Rm - Rf) incorrectly, e.g. adding full market return to beta; stating beta measures total risk (it measures systematic risk only).",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-08",
+   "paper_code": "CAF-7",
+   "topic_ref": "B-5",
+   "syllabus_ref": "B-5",
+   "question_text": "Orbit Pharma must pay USD 500,000 in three months for imported raw material.\nSpot rate: Rs 278/USD. 3-month forward rate: Rs 283.50/USD. 3-month PKR\nborrowing rate: 18% p.a. 3-month USD deposit rate: 4% p.a.\n\nRequired:\n(a) Calculate the PKR cost of covering the payable with a forward contract.\n(3 marks)\n(b) Calculate the PKR cost of a money-market hedge. (6 marks)\n(c) Recommend which hedge to use, with one reason. (3 marks)",
+   "difficulty": "Intermediate",
+   "marks": 12,
+   "suggested_minutes": 22,
+   "required_skills": "FX hedging computations; comparing hedging alternatives.",
+   "expected_answer_elements": "Forward cost Rs 141.75m; money-market hedge cost approx Rs 143.82m; recommendation of the forward with a reason.",
+   "calculation_requirements": "Money-market hedge: deposit USD 500,000 discounted at the USD rate, convert at spot, fund by PKR borrowing. PV = 500,000/1.01 = 495,049.5.",
+   "common_mistakes": "Discounting at the PKR rate instead of the USD rate; forgetting to gross up the PKR borrowing for interest; recommending without comparing costs.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-09",
+   "paper_code": "CAF-7",
+   "topic_ref": "A-c-1",
+   "syllabus_ref": "A-c-1",
+   "question_text": "The CFO of Delta Foods has asked the financial controller to recognise Rs 30\nmillion of next quarter's sales in the current quarter so that the executive\nteam meets its profit target and earns bonuses. The controller is uncomfortable\nbut fears losing her job.\n\nRequired: Apply Tucker's 5-question ethical decision-making model to this\nsituation and state your conclusion. (10 marks)",
+   "difficulty": "Intermediate",
+   "marks": 10,
+   "suggested_minutes": 18,
+   "required_skills": "Application of an ethical decision-making model to an accounting scenario.",
+   "expected_answer_elements": "All five Tucker questions addressed with case-specific answers; clear ethical conclusion (do not recognise early).",
+   "calculation_requirements": "None - framework application. Tucker's questions: Is it profitable? Is it legal? Is it fair? Is it right? Is it sustainable/does it fit the company's values (would you be comfortable if it were public)?",
+   "common_mistakes": "Answering only 'it is unethical' without working through the model; confusing Tucker's model with the AAA 7-step model; concluding the controller should comply to protect her job.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CAF-6 Managerial and Financial Analysis, ICAP Directive 1.01 Revised 2024); detailed CAF-7 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-10",
+   "paper_code": "CAF-6",
+   "topic_ref": "C-1",
+   "syllabus_ref": "C-1",
+   "question_text": "Budgeted data for FastParts Ltd for the quarter to 30 June:\n- Sales: April Rs 100m, May Rs 120m, June Rs 140m (60% cash, 40% collected one\nmonth later)\n- Purchases are 70% of the following month's sales, paid one month later\n(July sales are budgeted at Rs 150m)\n- Wages Rs 20m and overheads Rs 15m per month, paid in the month\n- Opening cash balance (1 April): Rs 10m\n\nRequired: Prepare the cash budget for April, May and June, and identify any\nmonth in which additional finance is needed. (15 marks)",
+   "difficulty": "Intermediate",
+   "marks": 15,
+   "suggested_minutes": 27,
+   "required_skills": "Cash budget preparation with timing lags.",
+   "expected_answer_elements": "Correct receipts, payments and closing balances for all three months; deficit month identified with amount.",
+   "calculation_requirements": "April receipts: 60 + 40% of March sales - March sales not given, so assume 40% of April's credit relates to March... (see outline - cleaner: treat only given months; credit collection of April sales falls in May).",
+   "common_mistakes": "Collecting 40% of the same month's sales; paying purchases in the same month; omitting the opening balance.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-11",
+   "paper_code": "CAF-6",
+   "topic_ref": "B+C",
+   "syllabus_ref": "B+C",
+   "question_text": "StyleHub Retail (3 outlets in Karachi) - key data:\nYear: 2023 | 2024 | 2025. Revenue Rs m: 420 | 465 | 480. Gross margin: 34% |\n31% | 28%. Receivables days: 12 | 18 | 29. Inventory days: 60 | 74 | 95.\nCurrent ratio: 1.8 | 1.5 | 1.2.\nTwo new-outlet proposals: DHA outlet - cost Rs 45m, expected annual cash inflow\nRs 13m for 5 years; Gulshan outlet - cost Rs 30m, inflow Rs 8m for 5 years. Cost\nof capital 14%. A national e-commerce player is discounting aggressively.\n\nRequired:\n(a) Analyse the company's financial performance and position. (8 marks)\n(b) Prepare a SWOT analysis. (6 marks)\n(c) Appraise both outlet proposals using NPV and payback. (7 marks)\n(d) Recommend a course of action. (4 marks)",
+   "difficulty": "Advanced",
+   "marks": 25,
+   "suggested_minutes": 45,
+   "required_skills": "Integrated ratio analysis, SWOT, investment appraisal and recommendation.",
+   "expected_answer_elements": "Trend analysis of all ratios; SWOT using facts; NPV DHA approx +Rs 1.6m, payback 3.5 yrs; NPV Gulshan approx -Rs 2.5m, payback 3.75 yrs; justified recommendation.",
+   "calculation_requirements": "Annuity 5 yrs @14% = 3.4331. DHA PV = 13 x 3.4331 = 44.63m; Gulshan PV = 8 x 3.4331 = 27.46m.",
+   "common_mistakes": "Computing ratios without commenting on trends; SWOT points not drawn from the case; appraising without a recommendation or recommending both outlets despite negative NPV.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CAF-12",
+   "paper_code": "CAF-6",
+   "topic_ref": "A",
+   "syllabus_ref": "A",
+   "question_text": "Nova Consumer Products has four product lines:\n- Line A: market growth 12%, relative market share 1.8\n- Line B: market growth 3%, relative market share 2.2\n- Line C: market growth 15%, relative market share 0.4\n- Line D: market growth 2%, relative market share 0.3\n\nRequired:\n(a) Classify each line in the BCG matrix. (4 marks)\n(b) State one implication of the classification of Line D. (1 mark)",
+   "difficulty": "Foundational",
+   "marks": 5,
+   "suggested_minutes": 9,
+   "required_skills": "BCG matrix classification.",
+   "expected_answer_elements": "Correct four classifications; sensible implication for the dog.",
+   "calculation_requirements": "High/low cut-offs: growth 10%, relative share 1.0.",
+   "common_mistakes": "Classifying by absolute share instead of relative share; swapping question marks and dogs.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-01",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "A-1",
+   "syllabus_ref": "A-1",
+   "question_text": "PharmaCare (Pvt) Ltd, an unlisted pharmaceutical distributor, reported profit\nafter tax of Rs 60 million for the year. A listed comparable company trades at\na P/E multiple of 9.5.\n\nRequired:\n(a) Estimate the equity value of PharmaCare using the P/E multiple. (3 marks)\n(b) Explain two limitations of this valuation. (5 marks)",
+   "difficulty": "Foundational",
+   "marks": 8,
+   "suggested_minutes": 14,
+   "required_skills": "Market-multiple valuation and critical evaluation.",
+   "expected_answer_elements": "Value Rs 570m; two well-explained limitations (comparability, accounting differences, growth/control adjustments).",
+   "calculation_requirements": "Equity value = PAT x P/E.",
+   "common_mistakes": "Applying the multiple to revenue or EBIT; stating limitations without explaining why they matter here.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-02",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "A-3",
+   "syllabus_ref": "A-3",
+   "question_text": "Sapphire Energy is appraising a project to be financed with a debt-to-equity\nratio of 0.4. A listed proxy company in the same business has an equity beta of\n1.4 and a debt-to-equity ratio of 0.6. Corporate tax is 29%, the risk-free rate\nis 12%, the market risk premium is 8%, and the pre-tax cost of debt is 14%.\n\nRequired: Calculate the project's WACC, showing the ungearing and regearing of\nbeta. (12 marks)",
+   "difficulty": "Intermediate",
+   "marks": 12,
+   "suggested_minutes": 22,
+   "required_skills": "Beta ungearing/regearing and WACC computation.",
+   "expected_answer_elements": "Asset beta ~0.98; regeared beta ~1.26; cost of equity ~22.1%; WACC ~18.6%.",
+   "calculation_requirements": "Beta(asset) = Beta(equity) / (1 + (1-T) x D/E). WACC weights from the project's 0.4 D/E: E/V = 1/1.4, D/V = 0.4/1.4.",
+   "common_mistakes": "Forgetting the tax shield in ungearing; using the proxy's D/E for the project's WACC weights; omitting tax on cost of debt.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-03",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "A-3",
+   "syllabus_ref": "A-3",
+   "question_text": "Meridian Ports is appraising a 10-year concession project. The base-case NPV\ndiscounted at the ungeared cost of equity is negative Rs 8 million. The project\nwill be financed with Rs 100 million of debt at 10% interest for the full 10\nyears. Corporate tax is 29% and debt issue costs are Rs 2 million (payable now).\n\nRequired:\n(a) Calculate the adjusted present value (APV) of the project. (9 marks)\n(b) Recommend whether to proceed, commenting on when APV is preferred to a\nWACC-based NPV. (6 marks)",
+   "difficulty": "Intermediate",
+   "marks": 15,
+   "suggested_minutes": 27,
+   "required_skills": "APV computation and financing-side evaluation.",
+   "expected_answer_elements": "PV of tax shield Rs 29m (10-yr annuity treatment acceptable); APV approx +Rs 19m; accept; APV preferred with changing gearing.",
+   "calculation_requirements": "Annual tax shield = 100m x 10% x 29% = Rs 2.9m for 10 years; discount at the cost of debt (10%): annuity factor 6.1446 -> Rs 17.82m. (Simplified perpetual treatment: 100 x 29% = 29m also acceptable with justification.)",
+   "common_mistakes": "Discounting tax shields at WACC; ignoring issue costs; treating the base NPV as the final answer.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-04",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "A-2",
+   "syllabus_ref": "A-2",
+   "question_text": "Glacier Foods is considering acquiring SnowDairy (Pvt) Ltd. SnowDairy's\nforecast free cash flows to the firm (Rs m): Y1 48, Y2 55, Y3 62, Y4 66, Y5 70,\ngrowing at 4% thereafter. Glacier's WACC is 16%. SnowDairy's current market\ncapitalisation is Rs 320 million. Estimated present value of synergies is Rs 40\nmillion.\n\nRequired:\n(a) Value SnowDairy's operations using a DCF. (10 marks)\n(b) Calculate the maximum price Glacier should pay and the implied maximum\npremium over market capitalisation. (5 marks)\n(c) Discuss the choice between cash and share consideration. (5 marks)",
+   "difficulty": "Advanced",
+   "marks": 20,
+   "suggested_minutes": 36,
+   "required_skills": "DCF valuation, synergy-adjusted bid pricing, consideration choice.",
+   "expected_answer_elements": "Enterprise value approx Rs 385m; max price ~Rs 425m; premium ~33%; balanced cash-vs-shares discussion.",
+   "calculation_requirements": "Terminal value at Y5: 70 x 1.04 / (0.16-0.04). Discount factors @16%.",
+   "common_mistakes": "Forgetting synergies in the max price; computing premium on enterprise value instead of market cap; one-sided discussion of consideration.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-05",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "A-4",
+   "syllabus_ref": "A-4",
+   "question_text": "Indus Motors' board is reviewing dividend policy. Last dividend D0 = Rs 6 per\nshare, expected dividend growth 7% p.a., cost of equity 18%. The company has\nseveral positive-NPV expansion projects available.\n\nRequired:\n(a) Estimate the share price using the Gordon growth model. (3 marks)\n(b) Explain the Miller-Modigliani dividend irrelevance argument. (4 marks)\n(c) Recommend a payout policy for Indus Motors. (3 marks)",
+   "difficulty": "Intermediate",
+   "marks": 10,
+   "suggested_minutes": 18,
+   "required_skills": "Dividend valuation, theory, and policy recommendation.",
+   "expected_answer_elements": "P0 ~Rs 58.36; MM: in perfect markets dividend policy does not affect value; recommend low payout given growth opportunities.",
+   "calculation_requirements": "Gordon: P0 = D1/(Ke-g) = 6 x 1.07 / (0.18-0.07).",
+   "common_mistakes": "Using D0 instead of D1; stating MM without its assumptions; recommending high payout despite positive-NPV projects.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-06",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "C-1",
+   "syllabus_ref": "C-1",
+   "question_text": "Match each situation of ExportCo (a Karachi exporter invoicing in USD) to the\ntype of financial risk:\n(i) A USD 2m receivable due in 90 days may be worth fewer rupees if the rupee\nstrengthens.\n(ii) The USD value of its Dubai subsidiary's net assets falls on consolidation.\n(iii) A sustained stronger rupee makes its exports permanently less competitive.\n(iv) Its floating-rate export-refinance loan resets at a higher KIBOR.\n(v) It may be unable to meet a large supplier payment next week despite being\nprofitable.\n\nRisk types: transaction exposure, translation exposure, economic exposure,\ninterest-rate risk, liquidity risk. (5 marks)",
+   "difficulty": "Foundational",
+   "marks": 5,
+   "suggested_minutes": 9,
+   "required_skills": "Identification and classification of financial risks.",
+   "expected_answer_elements": "Correct five matches.",
+   "calculation_requirements": "None - definitional matching.",
+   "common_mistakes": "Confusing transaction with translation exposure; labelling (v) as credit risk.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-07",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "C-1",
+   "syllabus_ref": "C-1",
+   "question_text": "Nishat Logistics has a Rs 200 million floating-rate loan at 1-year KIBOR +\n2%. Current 1-year KIBOR is 19%. A bank offers a 1-year forward rate agreement\n(FRA) locking the all-in rate at 21%.\n\nRequired:\n(a) Calculate the interest cost for the year if KIBOR stays at 19% and if it\nrises to 23%, without hedging. (4 marks)\n(b) Calculate the interest cost with the FRA in each scenario. (3 marks)\n(c) Recommend whether to take the FRA, discussing the trade-off. (5 marks)",
+   "difficulty": "Intermediate",
+   "marks": 12,
+   "suggested_minutes": 22,
+   "required_skills": "Interest-rate hedging computation and evaluation.",
+   "expected_answer_elements": "Unhedged: Rs 42m / Rs 50m; hedged: Rs 42m both; recommendation discussing certainty vs upside given up.",
+   "calculation_requirements": "Interest = 200m x (KIBOR + 2%).",
+   "common_mistakes": "Applying the 21% to the wrong base; ignoring that the FRA locks the rate in both scenarios; recommending without discussing the cost of certainty.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-08",
+   "paper_code": "CFAP-4-SBF",
+   "topic_ref": "B-1+A-3+C",
+   "syllabus_ref": "B-1+A-3+C",
+   "question_text": "Chenab Textiles plans a Rs 500 million expansion (1-for-4 rights issue).\nCurrent: 100 million shares, market price Rs 60 cum-rights. Rights price Rs 45.\nThe expansion's incremental cash flows (Rs m): Y0 (500), Y1 90, Y2 130, Y3 160,\nY4 180, Y5 200. Cost of capital 15%. Current debt Rs 400m at 12%.\n\nRequired:\n(a) Calculate the theoretical ex-rights price (TERP) and the value of rights.\n(6 marks)\n(b) Evaluate the expansion using NPV. (7 marks)\n(c) Advise on the financing choice (rights issue vs debt), covering dilution,\ngearing and risk. (8 marks)\n(d) Identify two key risks and how to mitigate them. (4 marks)",
+   "difficulty": "Advanced",
+   "marks": 25,
+   "suggested_minutes": 45,
+   "required_skills": "Rights-issue mechanics, NPV appraisal, financing advice, risk assessment.",
+   "expected_answer_elements": "TERP Rs 57; rights value Rs 12; NPV approx +Rs 38m; balanced financing advice; two risks with mitigations.",
+   "calculation_requirements": "New shares = 25m; TERP = (100x60 + 25x45)/125. NPV annuity factors @15%.",
+   "common_mistakes": "Using cum-rights price as TERP; ignoring dilution; appraising without financing linkage.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper. Topic mapped from the verified 2021 predecessor (CFAP-4 Business Finance Decisions, ICAP Directive 1.01 Revised 2024); detailed Strategic Business Finance 2025 learning outcomes pending official publication.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-09",
+   "paper_code": "CFAP-4-BFD",
+   "topic_ref": "B-2",
+   "syllabus_ref": "B-2",
+   "question_text": "Lakson Engineering has Rs 150 million of capital available for the year.\nFour independent projects:\n- P1: investment Rs 80m, NPV Rs 22m\n- P2: investment Rs 60m, NPV Rs 18m\n- P3: investment Rs 50m, NPV Rs 12m\n- P4: investment Rs 40m, NPV Rs 14m\n\nRequired:\n(a) Calculate the profitability index for each project and rank them. (6 marks)\n(b) Advise which projects to undertake if projects are (i) divisible and (ii)\nindivisible. (6 marks)\n(c) State one limitation of the profitability index. (3 marks)",
+   "difficulty": "Intermediate",
+   "marks": 15,
+   "suggested_minutes": 27,
+   "required_skills": "Capital rationing with profitability index.",
+   "expected_answer_elements": "PI: P4 1.35, P2 1.30, P1 1.275, P3 1.24; divisible: P4+P2+part of P1; indivisible: P4+P2+P3 (150m, NPV 44m) vs alternatives - check combinations.",
+   "calculation_requirements": "PI = (NPV + investment)/investment. Divisible: fill to 150m in PI order. Indivisible: enumerate feasible combos: P1+P2=140 (NPV40); P1+P3=130 (34); P1+P4=120 (36); P2+P3+P4=150 (44); P1+P2 exceeds with P3... best is P2+P3+P4 = 150m, NPV 44m.",
+   "common_mistakes": "Ranking by NPV instead of PI; assuming divisibility without stating it; ignoring the budget constraint in (b)(ii).",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-10",
+   "paper_code": "CFAP-4-BFD",
+   "topic_ref": "A-5",
+   "syllabus_ref": "A-5",
+   "question_text": "A listed company has issued a 10% redeemable bond with nominal value Rs 100,\nredeemable at Rs 105 in 4 years. Investors currently require a return of 12%.\n\nRequired:\n(a) Calculate the current market value of the bond. (5 marks)\n(b) Explain the effect on the bond's value if the issuer's credit rating is\ndowngraded. (3 marks)",
+   "difficulty": "Foundational",
+   "marks": 8,
+   "suggested_minutes": 14,
+   "required_skills": "Debt valuation by discounting.",
+   "expected_answer_elements": "Value approx Rs 97.10; downgrade raises required yield, lowering value.",
+   "calculation_requirements": "Annual coupon Rs 10; discount at 12%: annuity 3.0373, discount factor year 4 0.6355.",
+   "common_mistakes": "Discounting at the coupon rate instead of the required return; forgetting the redemption premium.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-11",
+   "paper_code": "CFAP-4-BFD",
+   "topic_ref": "C-1",
+   "syllabus_ref": "C-1",
+   "question_text": "Atlas Autos must pay USD 1,000,000 in six months. Spot: Rs 278/USD.\n6-month forward: Rs 286/USD. PKR 6-month borrowing 16% p.a.; USD 6-month deposit\n5% p.a. A 6-month USD call option (strike 286) costs Rs 4.50 per USD.\n\nRequired:\n(a) Calculate the PKR cost under (i) a forward contract, (ii) a money-market\nhedge, (iii) the currency option (show premium separately). (9 marks)\n(b) Recommend a hedge, commenting on flexibility. (3 marks)",
+   "difficulty": "Intermediate",
+   "marks": 12,
+   "suggested_minutes": 22,
+   "required_skills": "Comparing FX hedging instruments.",
+   "expected_answer_elements": "Forward Rs 286.0m; MMH approx Rs 287.0m; option Rs 290.5m incl. premium (if exercised); recommendation weighing cost vs flexibility.",
+   "calculation_requirements": "MMH: deposit 1,000,000/1.025 USD, convert at spot, borrow PKR at 16% for 6 months (x1.08). Option cost = 1m x 286 + 1m x 4.5 if exercised.",
+   "common_mistakes": "Forgetting the option premium; annualising 6-month rates incorrectly; recommending the cheapest without discussing flexibility.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper.",
+   "verification_status": "supplementary"
+  },
+  {
+   "question_id": "Q-CFAP-12",
+   "paper_code": "CFAP-4-BFD",
+   "topic_ref": "A-2",
+   "syllabus_ref": "A-2",
+   "question_text": "Conglomerate: PakHold Ltd plans to demerge its FMCG division (SpinCo) from\nits chemicals division (ChemCo). Data:\n- SpinCo: forecast FCF Rs 90m p.a. for 5 years, then 3% growth; divisional WACC\n14%.\n- ChemCo: forecast FCF Rs 120m p.a. for 5 years, then 2% growth; divisional WACC\n13%.\n- PakHold market capitalisation: Rs 1,900m; net debt Rs 400m (allocated Rs\n150m SpinCo, Rs 250m ChemCo).\n\nRequired:\n(a) Value each division's equity using a DCF. (10 marks)\n(b) Calculate the implied conglomerate discount/premium. (4 marks)\n(c) Discuss whether the demerger creates shareholder value and the strategic\nrationale. (6 marks)",
+   "difficulty": "Advanced",
+   "marks": 20,
+   "suggested_minutes": 36,
+   "required_skills": "Demerger valuation and shareholder-wealth analysis.",
+   "expected_answer_elements": "SpinCo equity ~Rs 610m; ChemCo equity ~Rs 905m; sum ~Rs 1,515m vs market cap 1,900m implies a premium (negative discount); discussion of focus, transparency, costs.",
+   "calculation_requirements": "TV SpinCo = 90x1.03/(0.14-0.03); annuity factors 5yr @14% 3.4331, @13% 3.5172. SpinCo EV = 90x3.4331 + TV discounted; equity = EV - 150m debt.",
+   "common_mistakes": "Using the same WACC for both divisions; forgetting to deduct allocated debt; claiming any difference automatically proves value creation.",
+   "source_verified": 0,
+   "source_note": "Original practice question authored for this application - not an ICAP past paper.",
+   "verification_status": "supplementary"
+  }
+ ],
+ "answer_outlines": [
+  {
+   "outline_id": "AO-Q-CAF-01",
+   "question_id": "Q-CAF-01",
+   "outline_text": "* Strengths: established relationships with two EU retail chains; export track record and knowledge of EU compliance; low-cost skilled stitching labour.\n* Weaknesses: no sustainability certification yet (buyer requirement at risk); ageing looms vs competitor's automated plant; dependence on two buyers.\n* Opportunities: 12% rupee depreciation improves euro price competitiveness; automation subsidies/financing may be available; sustainability certification could open new buyers.\n* Threats: 9% rise in yarn cost from flood-damaged cotton crop; competitor's 15% unit-cost advantage; buyer may delist uncertified suppliers.\n* Implications - S/O: use export relationships and weaker rupee to win additional EU orders while price-competitive.\n* Implications - W/O: pursue certification and phased loom modernisation to close the gaps buyers care about.\n* Implications - S/T: leverage buyer relationships to negotiate a certification transition timetable.\n* Implications - W/T: reduce buyer concentration and hedge yarn input costs; a cost-reduction plan is urgent given the competitor's advantage.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-02",
+   "question_id": "Q-CAF-02",
+   "outline_text": "* (i) Short-term bank finance / running finance (overdraft) - matches the 3-month seasonal need; flexible drawdown and repayment.\n* (ii) Long-term term loan, debenture/term finance certificate, or equity - 10-year asset needs long-term capital; matching maturities avoids refinancing risk.\n* (iii) Islamic working-capital facility such as Murabaha (cost-plus sale) for goods or Salam for advance purchase - Shariah-compliant structure.\n* Reason quality matters: maturity matching for (i)/(ii); Shariah compliance plus short tenor for (iii).\n* Partial credit for any suitable source with a coherent reason.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-03",
+   "question_id": "Q-CAF-03",
+   "outline_text": "* Receivables days = 45/270 x 365 = 60.8 days.\n* Inventory days = 60/240 x 365 = 91.3 days.\n* Payables days = 40/200 x 365 = 73.0 days.\n* Cash conversion cycle = 60.8 + 91.3 - 73.0 = 79.1 days (approx 79 days).\n* Trend: CCC has more than doubled from 38 to ~79 days - cash is tied up much longer; liquidity is under strain and overdraft dependence likely rising.\n* Actions: tighten credit control (credit checks, early-settlement discounts, factoring); reduce inventory via better demand forecasting / JIT; negotiate supplier terms only as a secondary lever (stretching payables damages relationships).",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-04",
+   "question_id": "Q-CAF-04",
+   "outline_text": "* PV of inflows = 3.8m x 3.6048 = Rs 13.698m; NPV = 13.698 - 12 = +Rs 1.698m.\n* At 18%: PV = 3.8 x 3.1272 = 11.883m (NPV -0.117m); at 17%: PV = 3.8 x 3.1993 = 12.157m (NPV +0.157m); IRR = 17 + 0.157/(0.157+0.117) x 1 = approx 17.6%, i.e. ~18%.\n* Payback = 12 / 3.8 = 3.16 years (approx 3.2 years).\n* Recommend purchase: NPV positive and IRR (18%) exceeds 12% cost of capital; payback within life.\n* Non-financial factor: operator training needs / machine reliability and downtime risk / packaging quality effect on brand - must be managed.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-05",
+   "question_id": "Q-CAF-05",
+   "outline_text": "* Competitive rivalry: HIGH - two dominant incumbents, price/discount-driven competition.\n* Threat of new entrants: MODERATE - app technology is replicable but network effects, rider scale and marketing spend are barriers.\n* Threat of substitutes: MODERATE-HIGH - dine-in, takeaway and home cooking limit pricing power.\n* Bargaining power of buyers (customers): HIGH - zero switching costs, discount- sensitive.\n* Bargaining power of suppliers: riders LOW (abundant supply); restaurants MODERATE-HIGH (multi-homing, can delist).\n* Conclusion: unattractive for an undifferentiated entrant - only viable with a clear niche (e.g. corporate catering, specific cuisine) or superior unit economics.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-06",
+   "question_id": "Q-CAF-06",
+   "outline_text": "* External: new low-cost import competitor (rivalry up, price pressure); construction slowdown risk; energy-cost inflation; changing consumer tastes.\n* Internal: weak credit control (receivables doubled); poor demand forecasting (inventory pile-up); possibly outdated kilns/cost base; over-reliance on MD's judgement.\n* Financial diagnosis: margin halved - pricing power lost and/or cost inflation unrecovered; CCC stretched sharply - cash trapped in receivables and inventory; liquidity/overdraft risk rising; risk of obsolete stock write-downs.\n* Option 1 - turnaround/retrenchment: tighten credit, clear inventory, cut costs, renegotiate suppliers; pros: fast cash release; cons: may shrink scale, morale effects.\n* Option 2 - repositioning: focus on premium/design segment away from import competition, invest in branding; pros: restores margin; cons: needs investment when cash is tight, slower payoff.\n* Evaluation should weigh cash urgency (favours option 1 first) against long- term positioning; a phased combination is defensible.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-07",
+   "question_id": "Q-CAF-07",
+   "outline_text": "* (a) Ke = 12% + 1.3 x (20% - 12%) = 12% + 10.4% = 22.4%.\n* (b) Beta 1.3: the share's returns move about 1.3x the market - 30% more volatile than the market portfolio; it carries above-average systematic risk.\n* Beta measures systematic (non-diversifiable) risk only, not total risk.\n* (c) Ke = 12% + 0.7 x 8% = 17.6% - lower systematic risk, lower required return.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-08",
+   "question_id": "Q-CAF-08",
+   "outline_text": "* (a) Forward cost = 500,000 x 283.50 = Rs 141,750,000.\n* (b) USD to deposit now = 500,000 / (1 + 0.04 x 3/12) = 500,000 / 1.01 = USD 495,049.50.\n* PKR needed now = 495,049.50 x 278 = Rs 137,623,761; borrow for 3 months at 18%: 137,623,761 x (1 + 0.18 x 3/12) = 137,623,761 x 1.045 = Rs 143,816,830 (approx Rs 143.82m).\n* (c) Recommend the forward contract - cheaper by about Rs 2.07m and simpler to execute; money-market hedge ties up a PKR borrowing line.\n* Note: forwards carry counterparty/bank-credit risk; neither hedge removes the underlying commercial exposure.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-09",
+   "question_id": "Q-CAF-09",
+   "outline_text": "* Profitable? Short-term bonus gain, but restatement/fraud risk destroys value - fails the spirit of the test.\n* Legal? No - premature revenue recognition breaches accounting standards and potentially the law.\n* Fair? No - unfair to shareholders, auditors and staff; bonuses earned on false performance.\n* Right? No - violates integrity and professional ethics of an accountant.\n* Sustainable/values test: would not survive publicity or audit scrutiny - fails.\n* Conclusion: the controller must refuse, document the request, and consider reporting through the whistleblowing channel / audit committee; personal job fear does not justify participation.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-10",
+   "question_id": "Q-CAF-10",
+   "outline_text": "* Receipts: April 60.0 (cash sales) = 60.0; May 72.0 + 40.0 (April credit) = 112.0; June 84.0 + 48.0 (May credit) = 132.0. (Rs m)\n* Purchases paid: April 70% x 100 (March purchases) = 70.0; May 70% x 120 = 84.0; June 70% x 140 = 98.0. (June purchases = 70% x 150 = 105.0 are paid in July - outside the quarter, a distractor.)\n* Payments: April 70.0 + 35.0 = 105.0; May 84.0 + 35.0 = 119.0; June 98.0 + 35.0 = 133.0.\n* Closing: April 10 + 60 - 105 = (35.0); May (35.0) + 112 - 119 = (42.0); June (42.0) + 132 - 133 = (43.0).\n* Additional finance needed in all three months - peak deficit approx Rs 43m in June; arrange an overdraft facility of at least Rs 45m.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-11",
+   "question_id": "Q-CAF-11",
+   "outline_text": "* (a) Revenue growth slowing (11% then 3%); gross margin down 6pp - pricing pressure from e-commerce discounter and/or cost inflation; receivables and inventory days sharply up - working capital mismanaged; current ratio falling toward 1 - liquidity weakening.\n* (b) S: established Karachi presence, 3-outlet base; W: deteriorating margins, weak credit/stock control; O: DHA catchment growth; T: e-commerce discounter, rising rents/costs.\n* (c) DHA: NPV = 13 x 3.4331 - 45 = 44.63 - 45 = -Rs 0.37m (marginally negative); payback 45/13 = 3.46 yrs. Gulshan: NPV = 27.46 - 30 = -Rs 2.54m; payback 30/8 = 3.75 yrs.\n* (d) Recommend neither outlet as presented - both NPVs negative at 14% and the core business needs fixing first (margins, working capital); revisit expansion after turnaround, or renegotiate DHA terms.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CAF-12",
+   "question_id": "Q-CAF-12",
+   "outline_text": "* Line A: Star (high growth, high share) - invest to defend leadership.\n* Line B: Cash cow (low growth, high share) - milk for cash to fund stars/ question marks.\n* Line C: Question mark (high growth, low share) - selective investment or divest.\n* Line D: Dog (low growth, low share) - consider divestment or harvesting; avoid throwing good cash after bad.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-01",
+   "question_id": "Q-CFAP-01",
+   "outline_text": "* (a) Equity value = 60m x 9.5 = Rs 570 million.\n* Limitation 1: comparability - the listed company may differ in size, growth, risk and diversification; a single multiple ignores these.\n* Limitation 2: accounting differences - PAT depends on depreciation, provisioning and one-off policies that may not be comparable.\n* Further points: no control premium/minority discount considered; market prices may reflect sentiment; earnings are a single-year snapshot - a normalised or prospective earnings base is better.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-02",
+   "question_id": "Q-CFAP-02",
+   "outline_text": "* Ungeared (asset) beta = 1.4 / (1 + (1-0.29) x 0.6) = 1.4 / 1.426 = 0.982.\n* Regeared beta = 0.982 x (1 + 0.71 x 0.4) = 0.982 x 1.284 = 1.261.\n* Cost of equity = 12% + 1.261 x 8% = 22.09%.\n* WACC = 22.09% x (1/1.4) + 14% x (1-0.29) x (0.4/1.4) = 15.78% + 2.84% = 18.62%.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-03",
+   "question_id": "Q-CFAP-03",
+   "outline_text": "* PV of tax shield (10-yr annuity @10%) = 2.9m x 6.1446 = Rs 17.82m. (Simplified: 100m x 29% = Rs 29m if treated as perpetual - accept with note.)\n* APV = base NPV - issue costs + PV tax shield = -8 - 2 + 17.82 = +Rs 7.82m (+Rs 19m on the simplified treatment).\n* Recommend: proceed - APV positive; the financing side (tax shield) turns a negative operating NPV positive.\n* APV is preferred where gearing changes over time or the financing structure is complex (subsidised loans, issue costs) - WACC assumes constant gearing.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-04",
+   "question_id": "Q-CFAP-04",
+   "outline_text": "* Terminal value = 70 x 1.04 / (0.16 - 0.04) = 72.8 / 0.12 = Rs 606.67m.\n* PV: Y1 48/1.16=41.38; Y2 55/1.3456=40.88; Y3 62/1.5609=39.72; Y4 66/1.8106=36.45; Y5 (70+606.67)/2.1003=322.18. Enterprise value approx Rs 480.6m. (Rounded: ~Rs 480m.)\n* Maximum price = 480.6 + 40 (synergies) = ~Rs 520m; maximum premium = (520-320)/320 = 62.5%.\n* Cash: quick, certain for target shareholders; increases Glacier's gearing and risk. Shares: preserves cash, shares risk with target shareholders; dilutes existing holders and depends on Glacier's share rating.\n* Strategic note: never pay for synergies you cannot deliver - bid discipline matters; overpayment destroys acquirer value.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-05",
+   "question_id": "Q-CFAP-05",
+   "outline_text": "* (a) P0 = 6 x 1.07 / (0.18 - 0.07) = 6.42 / 0.11 = Rs 58.36.\n* (b) MM irrelevance: in perfect capital markets (no taxes, no transaction costs, symmetric information), value comes from investment decisions; an investor can manufacture 'homemade dividends' by selling shares, so payout policy does not change firm value.\n* MM assumptions fail in practice: taxes, flotation costs, signalling and agency effects make dividends relevant.\n* (c) Recommend a low/stable payout - retain earnings for the positive-NPV projects (cheaper than external finance); consider share repurchases if cash builds up.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-06",
+   "question_id": "Q-CFAP-06",
+   "outline_text": "* (i) Transaction exposure - settled cash flow affected by rate movement.\n* (ii) Translation exposure - consolidation accounting effect, no immediate cash impact.\n* (iii) Economic exposure - long-term competitiveness effect of exchange rates.\n* (iv) Interest-rate risk - floating-rate cost changes with KIBOR.\n* (v) Liquidity risk - inability to meet short-term obligations despite profitability.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-07",
+   "question_id": "Q-CFAP-07",
+   "outline_text": "* (a) KIBOR 19%: 200m x 21% = Rs 42m. KIBOR 23%: 200m x 25% = Rs 50m.\n* (b) With FRA at 21% all-in: Rs 42m in both scenarios (FRA settles the difference).\n* (c) The FRA buys certainty at Rs 42m - it protects against the Rs 8m adverse move but gives up the benefit if rates fall.\n* Recommend based on risk appetite and forecasts: if the company cannot absorb Rs 50m (covenant/budget risk), hedge; if it expects rates to fall and can bear volatility, stay floating. Mention alternatives: interest-rate cap (keeps upside, costs premium).",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-08",
+   "question_id": "Q-CFAP-08",
+   "outline_text": "* (a) New shares 25m; TERP = (6,000m + 1,125m)/125m = Rs 57.00. Value of rights per new share = 57 - 45 = Rs 12; per existing share = 12/4 = Rs 3.\n* (b) PV: 90/1.15=78.26; 130/1.3225=98.30; 160/1.5209=105.20; 180/1.7490=102.92; 200/2.0114=99.43. Total 484.11; NPV = 484.11 - 500 = -Rs 15.89m. (Marginally negative - decision is finely balanced.)\n* (c) Rights issue: no new debt service, gearing falls, but 20% dilution and discount signal; existing shareholders can avoid dilution by taking up rights. Debt alternative: interest tax shield, no dilution, but gearing rises from an already levered base and covenants tighten - risky if cash flows disappoint.\n* (d) Risks: demand shortfall (sensitivity/break-even analysis; phased investment); cost overrun (fixed-price contracts, contingency); FX/input-cost risk (hedging, pass-through clauses).\n* Overall: project NPV is marginally negative at 15% - only proceed if strategic benefits (market share, follow-on options) justify it, and prefer rights issue given existing debt levels.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-09",
+   "question_id": "Q-CFAP-09",
+   "outline_text": "* (a) PI: P1 (22+80)/80 = 1.275; P2 (18+60)/60 = 1.300; P3 (12+50)/50 = 1.240; P4 (14+40)/40 = 1.350. Ranking: P4 > P2 > P1 > P3.\n* (b)(i) Divisible: take P4 (40) + P2 (60) = 100, then 50/80 of P1 = 50; total 150m; NPV = 14 + 18 + 22x(50/80) = 45.75m.\n* (b)(ii) Indivisible: feasible combos within 150m - P2+P3+P4 = 150m gives NPV 44m, which beats P1+P2 (140m, NPV 40m) and others; select P2, P3, P4.\n* (c) Limitation: PI is a relative measure - it can favour small projects and does not guarantee the absolute NPV-maximising combination under indivisible ('hard') rationing; also assumes the discount rate is correct.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-10",
+   "question_id": "Q-CFAP-10",
+   "outline_text": "* (a) PV of coupons = 10 x 3.0373 = Rs 30.37; PV of redemption = 105 x 0.6355 = Rs 66.73. Market value = Rs 97.10 (trades at a discount since coupon 10% < required 12%).\n* (b) A downgrade increases perceived default risk, so investors require a higher yield; discounting at a higher rate reduces the present value - the bond price falls.\n* Note: the issuer's own cost of new debt rises correspondingly.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-11",
+   "question_id": "Q-CFAP-11",
+   "outline_text": "* (a)(i) Forward: 1,000,000 x 286 = Rs 286,000,000.\n* (a)(ii) USD deposit = 1,000,000/1.025 = 975,609.76; PKR now = 975,609.76 x 278 = 271,219,512; borrow cost x1.08 = Rs 292,917,073 (approx Rs 292.92m).\n* (a)(iii) Option: premium = 1,000,000 x 4.50 = Rs 4,500,000; if exercised, 1,000,000 x 286 = 286,000,000; total Rs 290,500,000.\n* (b) The forward is cheapest and simplest - recommend it if the payable is certain. Choose the option only if there is uncertainty (order may be cancelled) - you pay Rs 4.5m for the flexibility to walk away; the money- market hedge is dominated here.",
+   "note": "Answer outline - not an official ICAP model answer."
+  },
+  {
+   "outline_id": "AO-Q-CFAP-12",
+   "question_id": "Q-CFAP-12",
+   "outline_text": "* SpinCo: TV = 90 x 1.03 / 0.11 = Rs 842.73m; EV = 90 x 3.4331 + 842.73/1.9254 = 308.98 + 437.67 = Rs 746.65m; equity = 746.65 - 150 = Rs 596.65m.\n* ChemCo: TV = 120 x 1.02 / 0.11 = Rs 1,112.73m; EV = 120 x 3.5172 + 1,112.73/1.8424 = 422.06 + 603.95 = Rs 1,026.01m; equity = 1,026.01 - 250 = Rs 776.01m.\n* Sum of parts equity = 596.65 + 776.01 = Rs 1,372.66m vs market cap Rs 1,900m: implied conglomerate PREMIUM of ~38% (negative discount) - the market already values diversification/synergy.\n* Value creation is not automatic: demerger adds focus, transparency and management accountability, and lets each business attract the right investors; but it destroys any real synergies, adds listing/separation costs, and may reduce debt capacity. Recommend only if strategic benefits exceed costs - here the market premium argues against demerging for valuation reasons alone.",
+   "note": "Answer outline - not an official ICAP model answer."
+  }
+ ],
+ "marking_rubrics": [
+  {
+   "rubric_id": "RB-Q-CAF-01",
+   "question_id": "Q-CAF-01",
+   "rubric_json": [
+    {
+     "criterion": "Correct classification of factors into S/W/O/T",
+     "marks": 4
+    },
+    {
+     "criterion": "One valid strategic implication per quadrant, linked to the analysis",
+     "marks": 3
+    },
+    {
+     "criterion": "Use of case facts (not generic statements) and business terminology",
+     "marks": 1
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-02",
+   "question_id": "Q-CAF-02",
+   "rubric_json": [
+    {
+     "criterion": "Suitable source identified for each of the three situations",
+     "marks": 3
+    },
+    {
+     "criterion": "Valid reason given for each choice",
+     "marks": 2
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-03",
+   "question_id": "Q-CAF-03",
+   "rubric_json": [
+    {
+     "criterion": "Correct computation of the three days ratios",
+     "marks": 4
+    },
+    {
+     "criterion": "Correct cash conversion cycle",
+     "marks": 2
+    },
+    {
+     "criterion": "Interpretation of the trend vs prior year",
+     "marks": 3
+    },
+    {
+     "criterion": "Two relevant, practical management actions",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-04",
+   "question_id": "Q-CAF-04",
+   "rubric_json": [
+    {
+     "criterion": "Correct NPV computation",
+     "marks": 5
+    },
+    {
+     "criterion": "Correct IRR by interpolation",
+     "marks": 4
+    },
+    {
+     "criterion": "Correct payback period",
+     "marks": 2
+    },
+    {
+     "criterion": "Justified recommendation with a relevant non-financial factor",
+     "marks": 4
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-05",
+   "question_id": "Q-CAF-05",
+   "rubric_json": [
+    {
+     "criterion": "Each of the five forces assessed with case justification",
+     "marks": 7
+    },
+    {
+     "criterion": "Reasoned overall conclusion linked to the analysis",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-06",
+   "question_id": "Q-CAF-06",
+   "rubric_json": [
+    {
+     "criterion": "External and internal analysis, using case facts",
+     "marks": 8
+    },
+    {
+     "criterion": "Financial diagnosis linking margin and working-capital evidence",
+     "marks": 6
+    },
+    {
+     "criterion": "Two distinct strategic options, each briefly evaluated",
+     "marks": 6
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-07",
+   "question_id": "Q-CAF-07",
+   "rubric_json": [
+    {
+     "criterion": "Correct CAPM computation",
+     "marks": 3
+    },
+    {
+     "criterion": "Correct explanation of beta 1.3",
+     "marks": 3
+    },
+    {
+     "criterion": "Correct recomputation for beta 0.7",
+     "marks": 2
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-08",
+   "question_id": "Q-CAF-08",
+   "rubric_json": [
+    {
+     "criterion": "Correct forward-contract cost",
+     "marks": 3
+    },
+    {
+     "criterion": "Correct money-market hedge computation",
+     "marks": 6
+    },
+    {
+     "criterion": "Recommendation with a valid reason",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-09",
+   "question_id": "Q-CAF-09",
+   "rubric_json": [
+    {
+     "criterion": "Each of Tucker's five questions applied to the facts",
+     "marks": 7
+    },
+    {
+     "criterion": "Clear, justified conclusion",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-10",
+   "question_id": "Q-CAF-10",
+   "rubric_json": [
+    {
+     "criterion": "Correct cash receipts each month",
+     "marks": 5
+    },
+    {
+     "criterion": "Correct payments each month (purchases lag, wages, overheads)",
+     "marks": 5
+    },
+    {
+     "criterion": "Closing balances and identification of finance need",
+     "marks": 5
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-11",
+   "question_id": "Q-CAF-11",
+   "rubric_json": [
+    {
+     "criterion": "Financial analysis with trend interpretation",
+     "marks": 8
+    },
+    {
+     "criterion": "SWOT grounded in case facts",
+     "marks": 6
+    },
+    {
+     "criterion": "Correct NPV and payback for both proposals",
+     "marks": 7
+    },
+    {
+     "criterion": "Clear justified recommendation",
+     "marks": 4
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CAF-12",
+   "question_id": "Q-CAF-12",
+   "rubric_json": [
+    {
+     "criterion": "Correct classification of all four lines",
+     "marks": 4
+    },
+    {
+     "criterion": "Valid implication for Line D",
+     "marks": 1
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-01",
+   "question_id": "Q-CFAP-01",
+   "rubric_json": [
+    {
+     "criterion": "Correct P/E valuation",
+     "marks": 3
+    },
+    {
+     "criterion": "Two limitations, each explained (not just listed)",
+     "marks": 5
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-02",
+   "question_id": "Q-CFAP-02",
+   "rubric_json": [
+    {
+     "criterion": "Correct ungearing of beta",
+     "marks": 4
+    },
+    {
+     "criterion": "Correct regearing of beta",
+     "marks": 3
+    },
+    {
+     "criterion": "Correct cost of equity via CAPM",
+     "marks": 2
+    },
+    {
+     "criterion": "Correct WACC with tax-adjusted debt cost and weights",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-03",
+   "question_id": "Q-CFAP-03",
+   "rubric_json": [
+    {
+     "criterion": "Correct tax-shield computation and discounting",
+     "marks": 5
+    },
+    {
+     "criterion": "Correct APV build-up",
+     "marks": 4
+    },
+    {
+     "criterion": "Recommendation with APV-vs-WACC discussion",
+     "marks": 6
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-04",
+   "question_id": "Q-CFAP-04",
+   "rubric_json": [
+    {
+     "criterion": "Correct DCF valuation with terminal value",
+     "marks": 10
+    },
+    {
+     "criterion": "Maximum price and premium",
+     "marks": 5
+    },
+    {
+     "criterion": "Balanced cash-vs-share discussion",
+     "marks": 5
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-05",
+   "question_id": "Q-CFAP-05",
+   "rubric_json": [
+    {
+     "criterion": "Correct Gordon growth valuation",
+     "marks": 3
+    },
+    {
+     "criterion": "MM argument with assumptions",
+     "marks": 4
+    },
+    {
+     "criterion": "Recommendation linked to growth opportunities",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-06",
+   "question_id": "Q-CFAP-06",
+   "rubric_json": [
+    {
+     "criterion": "Each correct match",
+     "marks": 5
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-07",
+   "question_id": "Q-CFAP-07",
+   "rubric_json": [
+    {
+     "criterion": "Unhedged costs in both scenarios",
+     "marks": 4
+    },
+    {
+     "criterion": "Hedged costs in both scenarios",
+     "marks": 3
+    },
+    {
+     "criterion": "Recommendation with trade-off discussion",
+     "marks": 5
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-08",
+   "question_id": "Q-CFAP-08",
+   "rubric_json": [
+    {
+     "criterion": "TERP and rights valuation",
+     "marks": 6
+    },
+    {
+     "criterion": "NPV computation",
+     "marks": 7
+    },
+    {
+     "criterion": "Financing advice covering dilution, gearing and risk",
+     "marks": 8
+    },
+    {
+     "criterion": "Two risks with mitigations",
+     "marks": 4
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-09",
+   "question_id": "Q-CFAP-09",
+   "rubric_json": [
+    {
+     "criterion": "PI computations and ranking",
+     "marks": 6
+    },
+    {
+     "criterion": "Correct project selection under both assumptions",
+     "marks": 6
+    },
+    {
+     "criterion": "Valid limitation of PI",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-10",
+   "question_id": "Q-CFAP-10",
+   "rubric_json": [
+    {
+     "criterion": "Correct bond valuation",
+     "marks": 5
+    },
+    {
+     "criterion": "Correct explanation of downgrade effect",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-11",
+   "question_id": "Q-CFAP-11",
+   "rubric_json": [
+    {
+     "criterion": "Forward cost",
+     "marks": 2
+    },
+    {
+     "criterion": "Money-market hedge cost",
+     "marks": 4
+    },
+    {
+     "criterion": "Option cost with premium shown",
+     "marks": 3
+    },
+    {
+     "criterion": "Recommendation with flexibility comment",
+     "marks": 3
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  },
+  {
+   "rubric_id": "RB-Q-CFAP-12",
+   "question_id": "Q-CFAP-12",
+   "rubric_json": [
+    {
+     "criterion": "DCF equity value of each division",
+     "marks": 10
+    },
+    {
+     "criterion": "Conglomerate discount/premium computation",
+     "marks": 4
+    },
+    {
+     "criterion": "Discussion of value creation and strategic rationale",
+     "marks": 6
+    }
+   ],
+   "note": "Practice rubric - not an official ICAP marking scheme."
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+  "RULE-001": [
+    {
+      "framework_id": "FW-WCAP",
+      "rationale": "Quantifies where cash is trapped via the cash conversion cycle."
+    },
+    {
+      "framework_id": "FW-RATIO",
+      "rationale": "Liquidity and efficiency ratios measure the pressure."
+    },
+    {
+      "framework_id": "FW-TREND",
+      "rationale": "Shows whether the strain is a trend or a one-off."
+    }
+  ],
+  "RULE-002": [
+    {
+      "framework_id": "FW-CAPACITY",
+      "rationale": "Quantifies utilisation and the cost of the bottleneck."
+    },
+    {
+      "framework_id": "FW-LIMITING",
+      "rationale": "Identifies the true binding constraint."
+    },
+    {
+      "framework_id": "FW-MAKEBUY",
+      "rationale": "Tests outsourcing as an alternative to expansion."
+    }
+  ],
+  "RULE-003": [
+    {
+      "framework_id": "FW-VARIANCE",
+      "rationale": "Splits the margin fall into price, cost and mix effects."
+    },
+    {
+      "framework_id": "FW-RATIO",
+      "rationale": "Margin ratios track the decline."
+    },
+    {
+      "framework_id": "FW-CONTRIB",
+      "rationale": "Product-level contribution finds the weak spots."
+    }
+  ],
+  "RULE-004": [
+    {
+      "framework_id": "FW-WACC",
+      "rationale": "Shows how the financing mix changes the cost of capital."
+    },
+    {
+      "framework_id": "FW-FINCHOICE",
+      "rationale": "Compares continuing with debt vs deleveraging."
+    },
+    {
+      "framework_id": "FW-RATIO",
+      "rationale": "Gearing and cover ratios track financial risk."
+    }
+  ],
+  "RULE-005": [
+    {
+      "framework_id": "FW-WCAP",
+      "rationale": "Inventory days locate the cash absorption."
+    },
+    {
+      "framework_id": "FW-RATIO",
+      "rationale": "Turnover ratios benchmark the build-up."
+    }
+  ],
+  "RULE-006": [
+    {
+      "framework_id": "FW-VARIANCE",
+      "rationale": "Core tool: flexed-budget variance decomposition."
+    },
+    {
+      "framework_id": "FW-KPI",
+      "rationale": "Turns the budget into monitorable targets."
+    }
+  ],
+  "RULE-007": [
+    {
+      "framework_id": "FW-NPV",
+      "rationale": "The financial baseline the strategic claim must overcome."
+    },
+    {
+      "framework_id": "FW-SCENARIO",
+      "rationale": "Tests the strategic upside under coherent scenarios."
+    },
+    {
+      "framework_id": "FW-SENS",
+      "rationale": "Shows which assumptions the case hinges on."
+    }
+  ],
+  "RULE-008": [
+    {
+      "framework_id": "FW-NPV",
+      "rationale": "NPV at the cost of capital is the governing rule."
+    },
+    {
+      "framework_id": "FW-IRR",
+      "rationale": "Needed to explain and bound the IRR side of the conflict."
+    },
+    {
+      "framework_id": "FW-CAPAPP",
+      "rationale": "General appraisal discipline for the comparison."
+    }
+  ],
+  "RULE-009": [
+    {
+      "framework_id": "FW-MAKEBUY",
+      "rationale": "The dedicated make-vs-buy comparison."
+    },
+    {
+      "framework_id": "FW-RELCOST",
+      "rationale": "Ensures only relevant costs enter the comparison."
+    }
+  ],
+  "RULE-010": [
+    {
+      "framework_id": "FW-SPECIAL",
+      "rationale": "The dedicated special-order incremental test."
+    },
+    {
+      "framework_id": "FW-RELCOST",
+      "rationale": "Strips out irrelevant sunk and allocated costs."
+    },
+    {
+      "framework_id": "FW-CONTRIB",
+      "rationale": "Confirms the price covers variable cost."
+    }
+  ],
+  "RULE-011": [
+    {
+      "framework_id": "FW-LIMITING",
+      "rationale": "Ranks products by contribution per limiting-factor unit."
+    },
+    {
+      "framework_id": "FW-PRODMIX",
+      "rationale": "Builds the optimal mix from the ranking."
+    },
+    {
+      "framework_id": "FW-CONTRIB",
+      "rationale": "Supplies the unit contributions for the ranking."
+    }
+  ],
+  "RULE-012": [
+    {
+      "framework_id": "FW-PRICING",
+      "rationale": "Compares pricing responses structurally."
+    },
+    {
+      "framework_id": "FW-BREAKEVEN",
+      "rationale": "Shows volumes needed at each candidate price."
+    },
+    {
+      "framework_id": "FW-PORTER5",
+      "rationale": "Assesses whether the rival's move is sustainable."
+    }
+  ],
+  "RULE-013": [
+    {
+      "framework_id": "FW-HEDGE",
+      "rationale": "Compares forwards, options and other hedges."
+    },
+    {
+      "framework_id": "FW-RISKISO",
+      "rationale": "Anchors the hedge in risk appetite and limits."
+    }
+  ],
+  "RULE-014": [
+    {
+      "framework_id": "FW-HEDGE",
+      "rationale": "Compares swaps, caps and fixed-rate refinancing."
+    },
+    {
+      "framework_id": "FW-SENS",
+      "rationale": "Quantifies profit impact of rate rises."
+    }
+  ],
+  "RULE-015": [
+    {
+      "framework_id": "FW-LIQRISK",
+      "rationale": "Dedicated liquidity-risk assessment."
+    },
+    {
+      "framework_id": "FW-RATIO",
+      "rationale": "Liquidity ratios quantify the shortfall."
+    },
+    {
+      "framework_id": "FW-WCAP",
+      "rationale": "Finds the working-capital release available."
+    }
+  ],
+  "RULE-016": [
+    {
+      "framework_id": "FW-WCAP",
+      "rationale": "Cash conversion cycle exposes the funding gap."
+    },
+    {
+      "framework_id": "FW-RATIO",
+      "rationale": "Tracks the overtrading signatures."
+    },
+    {
+      "framework_id": "FW-TREND",
+      "rationale": "Distinguishes a growth trend from a blip."
+    }
+  ],
+  "RULE-017": [
+    {
+      "framework_id": "FW-FINCHOICE",
+      "rationale": "Weighs payout against funding the investments."
+    },
+    {
+      "framework_id": "FW-STAKEHOLDER",
+      "rationale": "Maps shareholder expectations vs business needs."
+    }
+  ],
+  "RULE-018": [
+    {
+      "framework_id": "FW-FINCHOICE",
+      "rationale": "Rights issue vs debt alternatives."
+    },
+    {
+      "framework_id": "FW-VALUATION",
+      "rationale": "TERP and dilution effects on value per share."
+    }
+  ],
+  "RULE-019": [
+    {
+      "framework_id": "FW-VALUATION",
+      "rationale": "Values the target standalone and with synergies."
+    },
+    {
+      "framework_id": "FW-SCENARIO",
+      "rationale": "Includes the synergy-failure scenario."
+    },
+    {
+      "framework_id": "FW-RISKISO",
+      "rationale": "Captures integration and deal risks."
+    }
+  ],
+  "RULE-020": [
+    {
+      "framework_id": "FW-TUCKER5",
+      "rationale": "Structured ethical decision sequence."
+    },
+    {
+      "framework_id": "FW-AAA7",
+      "rationale": "Step-by-step ethical decision model."
+    },
+    {
+      "framework_id": "FW-STAKEHOLDER",
+      "rationale": "Maps who is affected and must be considered."
+    }
+  ],
+  "RULE-021": [
+    {
+      "framework_id": "FW-RISKISO",
+      "rationale": "Treats data inadequacy as an operational risk."
+    },
+    {
+      "framework_id": "FW-CBA",
+      "rationale": "Cost-benefit of fixing the systems."
+    }
+  ],
+  "RULE-022": [
+    {
+      "framework_id": "FW-PESTEL",
+      "rationale": "Technology scan of the disruption."
+    },
+    {
+      "framework_id": "FW-SCENARIO",
+      "rationale": "Explores adopt/partner/pivot futures."
+    },
+    {
+      "framework_id": "FW-PLC",
+      "rationale": "Locates the offering on the life-cycle curve."
+    }
+  ],
+  "RULE-023": [
+    {
+      "framework_id": "FW-PORTER5",
+      "rationale": "Threat of new entrants is a core force."
+    },
+    {
+      "framework_id": "FW-BENCHMARK",
+      "rationale": "Benchmarks cost and performance vs the entrant."
+    }
+  ],
+  "RULE-024": [
+    {
+      "framework_id": "FW-PORTER5",
+      "rationale": "Bargaining power of suppliers is a core force."
+    },
+    {
+      "framework_id": "FW-VALUECHAIN",
+      "rationale": "Finds where supplier dependence bites."
+    }
+  ],
+  "RULE-025": [
+    {
+      "framework_id": "FW-CREDITRISK",
+      "rationale": "Quantifies exposure to the key customer."
+    },
+    {
+      "framework_id": "FW-PORTER5",
+      "rationale": "Bargaining power of customers."
+    },
+    {
+      "framework_id": "FW-STAKEHOLDER",
+      "rationale": "The key customer's influence and interests."
+    }
+  ],
+  "RULE-026": [
+    {
+      "framework_id": "FW-VARIANCE",
+      "rationale": "Decomposes the overrun by cause."
+    },
+    {
+      "framework_id": "FW-IMPLPLAN",
+      "rationale": "Re-plans delivery within the revised budget."
+    }
+  ],
+  "RULE-027": [
+    {
+      "framework_id": "FW-SENS",
+      "rationale": "Core tool: sensitivity and breakeven values."
+    },
+    {
+      "framework_id": "FW-SCENARIO",
+      "rationale": "Wraps sensitivities into coherent scenarios."
+    },
+    {
+      "framework_id": "FW-EV",
+      "rationale": "Probability-weights the outcomes."
+    }
+  ],
+  "RULE-028": [
+    {
+      "framework_id": "FW-BREAKEVEN",
+      "rationale": "Shows the volume/profit relationship."
+    },
+    {
+      "framework_id": "FW-CONTRIB",
+      "rationale": "Finds which sales actually contribute."
+    },
+    {
+      "framework_id": "FW-TREND",
+      "rationale": "Confirms the divergence is a trend."
+    }
+  ],
+  "RULE-029": [
+    {
+      "framework_id": "FW-RATIO",
+      "rationale": "Cash-flow-based ratios test earnings quality."
+    },
+    {
+      "framework_id": "FW-TREND",
+      "rationale": "Tracks the divergence over time."
+    }
+  ],
+  "RULE-030": [
+    {
+      "framework_id": "FW-BREAKEVEN",
+      "rationale": "High breakeven quantifies the danger zone."
+    },
+    {
+      "framework_id": "FW-SENS",
+      "rationale": "Tests profit under demand scenarios."
+    },
+    {
+      "framework_id": "FW-CONTRIB",
+      "rationale": "Margin structure behind the leverage."
+    }
+  ]
+}

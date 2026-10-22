@@ -1,0 +1,1292 @@
+{
+ "formulas": [
+  {
+   "formula_id": "FORM-PCT-CHANGE",
+   "calc_id": "CALC-PCT-CHANGE",
+   "name": "Percentage change",
+   "formula_text": "% change = (New value − Old value) ÷ Old value × 100",
+   "inputs_json": [
+    {
+     "name": "new_value",
+     "unit": "currency or units",
+     "description": "Later-period value"
+    },
+    {
+     "name": "old_value",
+     "unit": "currency or units",
+     "description": "Base-period value"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Old value is non-zero; like-for-like comparison.",
+   "limitations": "Base effects distort small bases; not annualised.",
+   "verification_status": "supplementary",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-CAGR",
+   "calc_id": "CALC-CAGR",
+   "name": "Compound annual growth rate",
+   "formula_text": "CAGR = (End value ÷ Start value)^(1 ÷ n) − 1",
+   "inputs_json": [
+    {
+     "name": "start_value",
+     "unit": "currency",
+     "description": "Value at start"
+    },
+    {
+     "name": "end_value",
+     "unit": "currency",
+     "description": "Value at end"
+    },
+    {
+     "name": "n",
+     "unit": "years",
+     "description": "Number of periods"
+    }
+   ],
+   "units_json": {
+    "result": "percent per annum",
+    "notes": ""
+   },
+   "assumptions": "Smooth compounding; start value positive.",
+   "limitations": "Hides volatility within the period.",
+   "verification_status": "supplementary",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-CONTRIBUTION",
+   "calc_id": "CALC-CONTRIBUTION",
+   "name": "Contribution",
+   "formula_text": "Contribution = Sales − Variable costs",
+   "inputs_json": [
+    {
+     "name": "sales",
+     "unit": "currency",
+     "description": "Total sales revenue"
+    },
+    {
+     "name": "variable_costs",
+     "unit": "currency",
+     "description": "Total variable costs"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Costs correctly split into fixed and variable.",
+   "limitations": "Short-term measure; fixed costs excluded.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-CM-RATIO",
+   "calc_id": "CALC-CM-RATIO",
+   "name": "Contribution margin ratio",
+   "formula_text": "CM ratio = Contribution ÷ Sales × 100",
+   "inputs_json": [
+    {
+     "name": "contribution",
+     "unit": "currency",
+     "description": "Total contribution"
+    },
+    {
+     "name": "sales",
+     "unit": "currency",
+     "description": "Total sales revenue"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "As for contribution.",
+   "limitations": "Single-product or constant mix assumption for breakeven use.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-BREAKEVEN-UNITS",
+   "calc_id": "CALC-BREAKEVEN-UNITS",
+   "name": "Breakeven point (units)",
+   "formula_text": "Breakeven units = Fixed costs ÷ Contribution per unit",
+   "inputs_json": [
+    {
+     "name": "fixed_costs",
+     "unit": "currency",
+     "description": "Total fixed costs"
+    },
+    {
+     "name": "contribution_per_unit",
+     "unit": "currency per unit",
+     "description": "Selling price minus variable cost per unit"
+    }
+   ],
+   "units_json": {
+    "result": "units",
+    "notes": ""
+   },
+   "assumptions": "Linear costs and revenues; constant mix; single period.",
+   "limitations": "Ignores stepped fixed costs and demand constraints.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-BREAKEVEN-REV",
+   "calc_id": "CALC-BREAKEVEN-REV",
+   "name": "Breakeven point (revenue)",
+   "formula_text": "Breakeven revenue = Fixed costs ÷ Contribution margin ratio",
+   "inputs_json": [
+    {
+     "name": "fixed_costs",
+     "unit": "currency",
+     "description": "Total fixed costs"
+    },
+    {
+     "name": "cm_ratio",
+     "unit": "decimal",
+     "description": "Contribution margin ratio as a decimal"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "As for breakeven units.",
+   "limitations": "As for breakeven units.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-MARGIN-SAFETY",
+   "calc_id": "CALC-MARGIN-SAFETY",
+   "name": "Margin of safety",
+   "formula_text": "Margin of safety = (Budgeted sales − Breakeven sales) ÷ Budgeted sales × 100",
+   "inputs_json": [
+    {
+     "name": "budgeted_sales",
+     "unit": "currency or units",
+     "description": "Expected sales"
+    },
+    {
+     "name": "breakeven_sales",
+     "unit": "currency or units",
+     "description": "Breakeven sales in the same units"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "As for breakeven.",
+   "limitations": "As for breakeven; a thin margin signals high operational gearing.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-OP-LEVERAGE",
+   "calc_id": "CALC-OP-LEVERAGE",
+   "name": "Degree of operating leverage",
+   "formula_text": "DOL = Contribution ÷ Operating profit",
+   "inputs_json": [
+    {
+     "name": "contribution",
+     "unit": "currency",
+     "description": "Total contribution"
+    },
+    {
+     "name": "operating_profit",
+     "unit": "currency",
+     "description": "EBIT"
+    }
+   ],
+   "units_json": {
+    "result": "multiple",
+    "notes": ""
+   },
+   "assumptions": "Fixed costs constant over the relevant range.",
+   "limitations": "Point measure — changes with sales level; not in the syllabus knowledge reference.",
+   "verification_status": "supplementary",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-CURRENT-RATIO",
+   "calc_id": "CALC-CURRENT-RATIO",
+   "name": "Current ratio",
+   "formula_text": "Current ratio = Current assets ÷ Current liabilities",
+   "inputs_json": [
+    {
+     "name": "current_assets",
+     "unit": "currency",
+     "description": "As per statement of financial position"
+    },
+    {
+     "name": "current_liabilities",
+     "unit": "currency",
+     "description": "As per statement of financial position"
+    }
+   ],
+   "units_json": {
+    "result": "times (x)",
+    "notes": ""
+   },
+   "assumptions": "Year-end snapshot is representative.",
+   "limitations": "Window-dressing; says nothing about asset quality or timing.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-QUICK-RATIO",
+   "calc_id": "CALC-QUICK-RATIO",
+   "name": "Quick ratio (acid test)",
+   "formula_text": "Quick ratio = (Current assets − Inventory) ÷ Current liabilities",
+   "inputs_json": [
+    {
+     "name": "current_assets",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "inventory",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "current_liabilities",
+     "unit": "currency",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "times (x)",
+    "notes": ""
+   },
+   "assumptions": "Receivables are collectible in the short term.",
+   "limitations": "Still a snapshot; excludes timing of flows.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-REC-DAYS",
+   "calc_id": "CALC-REC-DAYS",
+   "name": "Receivable days",
+   "formula_text": "Receivable days = Trade receivables ÷ Credit sales × 365",
+   "inputs_json": [
+    {
+     "name": "receivables",
+     "unit": "currency",
+     "description": "Year-end trade receivables"
+    },
+    {
+     "name": "credit_sales",
+     "unit": "currency",
+     "description": "Annual credit sales"
+    }
+   ],
+   "units_json": {
+    "result": "days",
+    "notes": ""
+   },
+   "assumptions": "Sales are on credit; year-end balance is typical.",
+   "limitations": "Seasonality distorts; use averages where available.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-PAY-DAYS",
+   "calc_id": "CALC-PAY-DAYS",
+   "name": "Payable days",
+   "formula_text": "Payable days = Trade payables ÷ Credit purchases × 365",
+   "inputs_json": [
+    {
+     "name": "payables",
+     "unit": "currency",
+     "description": "Year-end trade payables"
+    },
+    {
+     "name": "credit_purchases",
+     "unit": "currency",
+     "description": "Annual credit purchases (or cost of sales as proxy)"
+    }
+   ],
+   "units_json": {
+    "result": "days",
+    "notes": ""
+   },
+   "assumptions": "Purchases are on credit.",
+   "limitations": "Proxy denominators weaken precision.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-INV-DAYS",
+   "calc_id": "CALC-INV-DAYS",
+   "name": "Inventory days",
+   "formula_text": "Inventory days = Inventory ÷ Cost of sales × 365",
+   "inputs_json": [
+    {
+     "name": "inventory",
+     "unit": "currency",
+     "description": "Year-end inventory"
+    },
+    {
+     "name": "cost_of_sales",
+     "unit": "currency",
+     "description": "Annual cost of sales"
+    }
+   ],
+   "units_json": {
+    "result": "days",
+    "notes": ""
+   },
+   "assumptions": "Year-end inventory is typical.",
+   "limitations": "Obsolete stock overstates the 'days' picture.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-CCC",
+   "calc_id": "CALC-CCC",
+   "name": "Cash conversion cycle",
+   "formula_text": "CCC = Inventory days + Receivable days − Payable days",
+   "inputs_json": [
+    {
+     "name": "inventory_days",
+     "unit": "days",
+     "description": ""
+    },
+    {
+     "name": "receivable_days",
+     "unit": "days",
+     "description": ""
+    },
+    {
+     "name": "payable_days",
+     "unit": "days",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "days",
+    "notes": ""
+   },
+   "assumptions": "Components measured consistently.",
+   "limitations": "Period-end snapshot; seasonal businesses need averages.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-GROSS-MARGIN",
+   "calc_id": "CALC-GROSS-MARGIN",
+   "name": "Gross profit margin",
+   "formula_text": "Gross margin = Gross profit ÷ Revenue × 100",
+   "inputs_json": [
+    {
+     "name": "gross_profit",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "revenue",
+     "unit": "currency",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Consistent cost classification.",
+   "limitations": "Mix changes can move the margin without efficiency change.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-NET-MARGIN",
+   "calc_id": "CALC-NET-MARGIN",
+   "name": "Net profit margin",
+   "formula_text": "Net margin = Profit after tax ÷ Revenue × 100 (state if operating profit is used instead)",
+   "inputs_json": [
+    {
+     "name": "profit_after_tax",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "revenue",
+     "unit": "currency",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "One-offs disclosed.",
+   "limitations": "Affected by financing and tax, not just operations.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-ROCE",
+   "calc_id": "CALC-ROCE",
+   "name": "Return on capital employed",
+   "formula_text": "ROCE = Operating profit ÷ Capital employed × 100",
+   "inputs_json": [
+    {
+     "name": "operating_profit",
+     "unit": "currency",
+     "description": "EBIT"
+    },
+    {
+     "name": "capital_employed",
+     "unit": "currency",
+     "description": "Total assets − current liabilities (or equity + non-current debt)"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Operating profit is pre-interest.",
+   "limitations": "Book values; asset age distorts comparisons.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-ROE",
+   "calc_id": "CALC-ROE",
+   "name": "Return on equity",
+   "formula_text": "ROE = Profit after tax ÷ Equity × 100",
+   "inputs_json": [
+    {
+     "name": "profit_after_tax",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "equity",
+     "unit": "currency",
+     "description": "Shareholders' funds"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Equity measured consistently (opening/average).",
+   "limitations": "Leverage flatters ROE; use with gearing.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-ASSET-TURNOVER",
+   "calc_id": "CALC-ASSET-TURNOVER",
+   "name": "Asset turnover",
+   "formula_text": "Asset turnover = Revenue ÷ Total assets",
+   "inputs_json": [
+    {
+     "name": "revenue",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "total_assets",
+     "unit": "currency",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "times (x)",
+    "notes": ""
+   },
+   "assumptions": "Assets stated gross of depreciation effects consistently.",
+   "limitations": "Industry asset-intensity differs; compare like with like.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-GEARING",
+   "calc_id": "CALC-GEARING",
+   "name": "Gearing (debt/equity)",
+   "formula_text": "Gearing = Debt ÷ Equity × 100 (state the definition used; alternative: Debt ÷ (Debt + Equity))",
+   "inputs_json": [
+    {
+     "name": "debt",
+     "unit": "currency",
+     "description": "Interest-bearing debt"
+    },
+    {
+     "name": "equity",
+     "unit": "currency",
+     "description": "Shareholders' funds"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Market values preferred; book values if unavailable.",
+   "limitations": "Definition varies — always state which is used.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-INT-COVER",
+   "calc_id": "CALC-INT-COVER",
+   "name": "Interest cover",
+   "formula_text": "Interest cover = Operating profit ÷ Finance costs",
+   "inputs_json": [
+    {
+     "name": "operating_profit",
+     "unit": "currency",
+     "description": "EBIT"
+    },
+    {
+     "name": "finance_costs",
+     "unit": "currency",
+     "description": "Interest payable"
+    }
+   ],
+   "units_json": {
+    "result": "times (x)",
+    "notes": ""
+   },
+   "assumptions": "Operating profit is recurring.",
+   "limitations": "Backward-looking; covenants may define it differently.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-PV",
+   "calc_id": "CALC-PV",
+   "name": "Present value (single sum)",
+   "formula_text": "PV = FV ÷ (1 + r)^n",
+   "inputs_json": [
+    {
+     "name": "future_value",
+     "unit": "currency",
+     "description": "Amount at time n"
+    },
+    {
+     "name": "r",
+     "unit": "decimal",
+     "description": "Discount rate per period"
+    },
+    {
+     "name": "n",
+     "unit": "periods",
+     "description": "Number of periods"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Rate constant; cash flow timing certain.",
+   "limitations": "Result is only as good as the discount rate.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-FV",
+   "calc_id": "CALC-FV",
+   "name": "Future value (single sum)",
+   "formula_text": "FV = PV × (1 + r)^n",
+   "inputs_json": [
+    {
+     "name": "present_value",
+     "unit": "currency",
+     "description": "Amount today"
+    },
+    {
+     "name": "r",
+     "unit": "decimal",
+     "description": "Rate per period"
+    },
+    {
+     "name": "n",
+     "unit": "periods",
+     "description": "Number of periods"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Rate constant over the horizon.",
+   "limitations": "Compounding frequency must match the rate.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-ANNUITY-PV",
+   "calc_id": "CALC-ANNUITY-PV",
+   "name": "Present value of an annuity",
+   "formula_text": "PV = A × [1 − (1 + r)^−n] ÷ r",
+   "inputs_json": [
+    {
+     "name": "A",
+     "unit": "currency",
+     "description": "Annuity payment per period"
+    },
+    {
+     "name": "r",
+     "unit": "decimal",
+     "description": "Discount rate per period"
+    },
+    {
+     "name": "n",
+     "unit": "periods",
+     "description": "Number of payments"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Payments at each period end; constant rate.",
+   "limitations": "Adjust for annuities-due (payments in advance).",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-ANNUITY-FV",
+   "calc_id": "CALC-ANNUITY-FV",
+   "name": "Future value of an annuity",
+   "formula_text": "FV = A × [(1 + r)^n − 1] ÷ r",
+   "inputs_json": [
+    {
+     "name": "A",
+     "unit": "currency",
+     "description": "Payment per period"
+    },
+    {
+     "name": "r",
+     "unit": "decimal",
+     "description": "Rate per period"
+    },
+    {
+     "name": "n",
+     "unit": "periods",
+     "description": "Number of payments"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Payments at each period end.",
+   "limitations": "Not named in the syllabus knowledge reference; supplementary aid.",
+   "verification_status": "supplementary",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-NPV",
+   "calc_id": "CALC-NPV",
+   "name": "Net present value",
+   "formula_text": "NPV = Σ [CFt ÷ (1 + r)^t] − Initial investment, t = 1..n",
+   "inputs_json": [
+    {
+     "name": "cash_flows",
+     "unit": "currency per period",
+     "description": "Incremental after-tax operating cash flows"
+    },
+    {
+     "name": "r",
+     "unit": "decimal",
+     "description": "Discount rate (WACC or risk-adjusted)"
+    },
+    {
+     "name": "initial_investment",
+     "unit": "currency",
+     "description": "Outlay at t=0"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Cash flows are incremental and after tax; nominal/real consistency.",
+   "limitations": "Sensitive to discount rate and distant forecasts.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-IRR",
+   "calc_id": "CALC-IRR",
+   "name": "Internal rate of return",
+   "formula_text": "IRR = r such that Σ [CFt ÷ (1 + r)^t] − Initial investment = 0",
+   "inputs_json": [
+    {
+     "name": "cash_flows",
+     "unit": "currency per period",
+     "description": "Project cash flows"
+    },
+    {
+     "name": "initial_investment",
+     "unit": "currency",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Conventional cash flows (one sign change) for a unique IRR.",
+   "limitations": "Multiple IRRs possible; reinvestment assumed at IRR; misranks mutually exclusive projects.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-PAYBACK",
+   "calc_id": "CALC-PAYBACK",
+   "name": "Payback period",
+   "formula_text": "Payback = Initial investment ÷ Annual cash inflow (even flows); else the time when cumulative inflows first cover the outlay",
+   "inputs_json": [
+    {
+     "name": "initial_investment",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "annual_cash_inflow",
+     "unit": "currency",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "years",
+    "notes": ""
+   },
+   "assumptions": "Cash flows, not profit.",
+   "limitations": "Ignores time value and post-payback flows.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-DISCOUNTED-PAYBACK",
+   "calc_id": "CALC-DISCOUNTED-PAYBACK",
+   "name": "Discounted payback period",
+   "formula_text": "Discounted payback = time until cumulative discounted cash flows first cover the initial investment",
+   "inputs_json": [
+    {
+     "name": "initial_investment",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "cash_flows",
+     "unit": "currency per period",
+     "description": ""
+    },
+    {
+     "name": "r",
+     "unit": "decimal",
+     "description": "Discount rate"
+    }
+   ],
+   "units_json": {
+    "result": "years",
+    "notes": ""
+   },
+   "assumptions": "As for NPV.",
+   "limitations": "Still ignores post-payback flows; not named in the syllabus knowledge reference.",
+   "verification_status": "supplementary",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-WACC",
+   "calc_id": "CALC-WACC",
+   "name": "Weighted average cost of capital",
+   "formula_text": "WACC = (E ÷ V) × Ke + (D ÷ V) × Kd × (1 − T)",
+   "inputs_json": [
+    {
+     "name": "E",
+     "unit": "currency",
+     "description": "Market value of equity"
+    },
+    {
+     "name": "D",
+     "unit": "currency",
+     "description": "Market value of debt"
+    },
+    {
+     "name": "Ke",
+     "unit": "decimal",
+     "description": "Cost of equity"
+    },
+    {
+     "name": "Kd",
+     "unit": "decimal",
+     "description": "Pre-tax cost of debt"
+    },
+    {
+     "name": "T",
+     "unit": "decimal",
+     "description": "Tax rate"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Constant target capital structure; market-value weights.",
+   "limitations": "Single WACC misprices projects of different risk.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-CAPM",
+   "calc_id": "CALC-CAPM",
+   "name": "Capital Asset Pricing Model",
+   "formula_text": "Ke = Rf + β × (Rm − Rf)",
+   "inputs_json": [
+    {
+     "name": "Rf",
+     "unit": "decimal",
+     "description": "Risk-free rate"
+    },
+    {
+     "name": "beta",
+     "unit": "decimal",
+     "description": "Equity beta (re-geared as needed)"
+    },
+    {
+     "name": "Rm",
+     "unit": "decimal",
+     "description": "Expected market return"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Nominal/real consistency; beta reflects leverage.",
+   "limitations": "Single-factor; historical betas are unstable.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-COST-DEBT",
+   "calc_id": "CALC-COST-DEBT",
+   "name": "After-tax cost of debt",
+   "formula_text": "Kd(after tax) = Kd(pre-tax) × (1 − T); approximation for irredeemable debt: annual interest ÷ net proceeds",
+   "inputs_json": [
+    {
+     "name": "Kd_pre_tax",
+     "unit": "decimal",
+     "description": "Yield to maturity or effective interest rate"
+    },
+    {
+     "name": "T",
+     "unit": "decimal",
+     "description": "Tax rate"
+    }
+   ],
+   "units_json": {
+    "result": "percent",
+    "notes": ""
+   },
+   "assumptions": "Tax relief is available on interest.",
+   "limitations": "Approximation only — beyond the syllabus knowledge reference; use YTM properly where examinable.",
+   "verification_status": "supplementary",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-EV",
+   "calc_id": "CALC-EV",
+   "name": "Enterprise value bridge",
+   "formula_text": "Equity value = Enterprise value − Net debt ± non-operating items; EV = market cap + net debt (+ minorities, − associates)",
+   "inputs_json": [
+    {
+     "name": "enterprise_value",
+     "unit": "currency",
+     "description": "Value of the firm to all capital providers"
+    },
+    {
+     "name": "net_debt",
+     "unit": "currency",
+     "description": "Debt less cash (market values)"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Market values used throughout.",
+   "limitations": "Bridge items (leases, pensions, minorities) often mismeasured.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-SENSITIVITY",
+   "calc_id": "CALC-SENSITIVITY",
+   "name": "Sensitivity / switching value",
+   "formula_text": "Sensitivity = % change in NPV ÷ % change in variable; switching value = variable value at which NPV = 0",
+   "inputs_json": [
+    {
+     "name": "base_npv",
+     "unit": "currency",
+     "description": "Base-case NPV"
+    },
+    {
+     "name": "variable",
+     "unit": "varies",
+     "description": "Key input varied over a plausible range"
+    }
+   ],
+   "units_json": {
+    "result": "percent / variable units",
+    "notes": ""
+   },
+   "assumptions": "One variable varied at a time.",
+   "limitations": "Ignores correlations between variables.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-SCENARIO-NPV",
+   "calc_id": "CALC-SCENARIO-NPV",
+   "name": "Expected NPV across scenarios",
+   "formula_text": "Expected NPV = Σ (probability of scenario × scenario NPV)",
+   "inputs_json": [
+    {
+     "name": "scenario_npvs",
+     "unit": "currency",
+     "description": "NPV under each coherent scenario"
+    },
+    {
+     "name": "probabilities",
+     "unit": "decimal",
+     "description": "Scenario probabilities summing to 1"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Scenarios are coherent and exhaustive enough; probabilities justifiable.",
+   "limitations": "False precision if probabilities are guesses.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-GORDON",
+   "calc_id": "CALC-GORDON",
+   "name": "Gordon growth (dividend discount) model",
+   "formula_text": "P0 = D1 ÷ (Ke − g)",
+   "inputs_json": [
+    {
+     "name": "D1",
+     "unit": "currency per share",
+     "description": "Next year's dividend"
+    },
+    {
+     "name": "Ke",
+     "unit": "decimal",
+     "description": "Cost of equity"
+    },
+    {
+     "name": "g",
+     "unit": "decimal",
+     "description": "Constant dividend growth rate, g < Ke"
+    }
+   ],
+   "units_json": {
+    "result": "currency per share",
+    "notes": ""
+   },
+   "assumptions": "Constant perpetual growth; g < Ke.",
+   "limitations": "Very sensitive to (Ke − g); unsuitable for non-dividend payers.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-PE-VAL",
+   "calc_id": "CALC-PE-VAL",
+   "name": "P/E multiple valuation",
+   "formula_text": "Equity value = EPS × P/E multiple (of comparable firms)",
+   "inputs_json": [
+    {
+     "name": "eps",
+     "unit": "currency per share",
+     "description": "Maintainable earnings per share"
+    },
+    {
+     "name": "pe_multiple",
+     "unit": "multiple",
+     "description": "P/E of comparables"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Comparables are truly comparable; earnings maintainable.",
+   "limitations": "Market mood embedded in multiples; growth differences ignored.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-ASSET-VAL",
+   "calc_id": "CALC-ASSET-VAL",
+   "name": "Asset-based valuation",
+   "formula_text": "Net asset value = Total assets − Total liabilities (± adjustments to market values)",
+   "inputs_json": [
+    {
+     "name": "total_assets",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "total_liabilities",
+     "unit": "currency",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Assets restated to market value where material.",
+   "limitations": "Ignores intangibles and going-concern value.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-RELEVANT-COST",
+   "calc_id": "CALC-RELEVANT-COST",
+   "name": "Relevant cost decision rule",
+   "formula_text": "Include: future incremental cash flows + opportunity costs. Exclude: sunk costs, committed costs, allocated fixed overheads.",
+   "inputs_json": [
+    {
+     "name": "incremental_cash_flows",
+     "unit": "currency",
+     "description": "Costs/revenues changing with the decision"
+    },
+    {
+     "name": "opportunity_cost",
+     "unit": "currency",
+     "description": "Contribution forgone elsewhere"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "Short-term horizon; capacity position known.",
+   "limitations": "Fixed costs become relevant in the long run.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-MAKEBUY",
+   "calc_id": "CALC-MAKEBUY",
+   "name": "Make-or-buy comparison",
+   "formula_text": "Compare: relevant in-house cost (variable + avoidable fixed + opportunity cost) vs supplier price",
+   "inputs_json": [
+    {
+     "name": "relevant_inhouse_cost",
+     "unit": "currency per unit",
+     "description": ""
+    },
+    {
+     "name": "supplier_price",
+     "unit": "currency per unit",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "currency per unit",
+    "notes": ""
+   },
+   "assumptions": "Quality and delivery equivalent (or adjusted).",
+   "limitations": "Strategic capability and supply risk are qualitative.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-SPECIAL-ORDER",
+   "calc_id": "CALC-SPECIAL-ORDER",
+   "name": "Special order acceptance rule",
+   "formula_text": "Accept if: incremental revenue > incremental cost + opportunity cost of capacity used",
+   "inputs_json": [
+    {
+     "name": "incremental_revenue",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "incremental_cost",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "opportunity_cost",
+     "unit": "currency",
+     "description": "0 if spare capacity"
+    }
+   ],
+   "units_json": {
+    "result": "currency",
+    "notes": ""
+   },
+   "assumptions": "One-off; no effect on regular prices.",
+   "limitations": "Repeated 'special' orders change the analysis; price leakage risk.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-LIMITING-FACTOR",
+   "calc_id": "CALC-LIMITING-FACTOR",
+   "name": "Limiting factor ranking",
+   "formula_text": "Rank products by: contribution per unit ÷ limiting-factor units per unit; allocate the scarce resource to the highest rank first",
+   "inputs_json": [
+    {
+     "name": "contribution_per_unit",
+     "unit": "currency",
+     "description": ""
+    },
+    {
+     "name": "limiting_factor_per_unit",
+     "unit": "units",
+     "description": "Scarce resource per unit"
+    },
+    {
+     "name": "available_limiting_factor",
+     "unit": "units",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "ranking",
+    "notes": ""
+   },
+   "assumptions": "Single binding constraint; fixed prices and costs.",
+   "limitations": "Multiple constraints need linear programming.",
+   "verification_status": "verified_official",
+   "validation_status": "unvalidated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-MATERIAL-VAR",
+   "calc_id": "CALC-MATERIAL-VAR",
+   "name": "Material variances",
+   "formula_text": "Price variance = (Standard price − Actual price) × Actual quantity; Usage variance = (Standard quantity − Actual quantity) × Standard price",
+   "inputs_json": [
+    {
+     "name": "standard_price",
+     "unit": "currency per kg",
+     "description": ""
+    },
+    {
+     "name": "actual_price",
+     "unit": "currency per kg",
+     "description": ""
+    },
+    {
+     "name": "standard_quantity",
+     "unit": "kg",
+     "description": "For actual output"
+    },
+    {
+     "name": "actual_quantity",
+     "unit": "kg",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "currency (Favourable/Adverse)",
+    "notes": ""
+   },
+   "assumptions": "Standards are current.",
+   "limitations": "Variances interact (cheap material → adverse usage).",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  },
+  {
+   "formula_id": "FORM-LABOUR-VAR",
+   "calc_id": "CALC-LABOUR-VAR",
+   "name": "Labour variances",
+   "formula_text": "Rate variance = (Standard rate − Actual rate) × Actual hours; Efficiency variance = (Standard hours − Actual hours) × Standard rate",
+   "inputs_json": [
+    {
+     "name": "standard_rate",
+     "unit": "currency per hour",
+     "description": ""
+    },
+    {
+     "name": "actual_rate",
+     "unit": "currency per hour",
+     "description": ""
+    },
+    {
+     "name": "standard_hours",
+     "unit": "hours",
+     "description": "For actual output"
+    },
+    {
+     "name": "actual_hours",
+     "unit": "hours",
+     "description": ""
+    }
+   ],
+   "units_json": {
+    "result": "currency (Favourable/Adverse)",
+    "notes": ""
+   },
+   "assumptions": "Standards are current.",
+   "limitations": "Idle time and learning effects need care.",
+   "verification_status": "verified_official",
+   "validation_status": "validated",
+   "review_status": "pending"
+  }
+ ]
+}

@@ -1,0 +1,1169 @@
+[
+  {
+    "alternative_explanations": [
+      "Collections have slowed because credit control weakened, not because sales are bad.",
+      "Credit terms were deliberately extended to win the extra sales.",
+      "A few large credit sales near the period-end distort the receivables figure.",
+      "Revenue recognition timing differences rather than a real collection problem."
+    ],
+    "info_needed": [
+      "Aged receivables listing and collection history",
+      "Current credit terms vs prior period terms",
+      "Cash flow statement (operating cash flow vs profit)",
+      "Receivable days trend over several periods",
+      "Any changes in customer mix or key customer payment behaviour"
+    ],
+    "interpretation": "Sales growth is not converting into cash. Receivables are absorbing the cash the business needs to operate, which is a classic early sign of working-capital strain even while the profit figure looks healthy.",
+    "pattern_id": "PAT-WORKING-CAPITAL",
+    "recommended_analysis": [
+      "Receivable days and cash conversion cycle",
+      "Operating cash flow vs profit reconciliation",
+      "Aged debt review and provision adequacy"
+    ],
+    "relevant_concepts": [
+      "Working capital cycle",
+      "Cash conversion cycle",
+      "Overtrading",
+      "Liquidity ratios"
+    ],
+    "required_conditions": "Applies when sales are growing but the cash position is deteriorating and receivables are growing faster than sales.",
+    "review_status": "draft",
+    "rule_id": "RULE-001",
+    "rule_source": "Authored deterministic rule — working-capital theory",
+    "title": "Working-capital pressure: revenue up, cash down, receivables rising faster than sales",
+    "triggers": [
+      {
+        "fact_key": "revenue",
+        "trend": "up"
+      },
+      {
+        "fact_key": "cash_balance",
+        "trend": "down"
+      },
+      {
+        "equals": "faster",
+        "fact_key": "receivables_growth_vs_sales"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "A temporary demand spike rather than a sustained trend.",
+      "Inefficient scheduling or poor planning, not true capacity shortage.",
+      "A labour or skills shortage rather than physical capacity.",
+      "An upstream supply bottleneck masquerading as internal capacity."
+    ],
+    "info_needed": [
+      "Capacity utilisation by bottleneck resource",
+      "Demand forecast and order backlog",
+      "Cost and lead time of capacity expansion options",
+      "Feasibility and cost of outsourcing or overtime",
+      "Customer tolerance for delays and cancellation risk"
+    ],
+    "interpretation": "The business cannot meet demand with current capacity. Every delayed order risks lost sales and damaged customer relationships, so this is both an operational and a strategic decision point.",
+    "pattern_id": "PAT-CAPACITY",
+    "recommended_analysis": [
+      "Throughput/bottleneck analysis",
+      "Relevant-cost comparison of expand vs outsource vs overtime",
+      "Breakeven on the expansion investment"
+    ],
+    "relevant_concepts": [
+      "Capacity planning",
+      "Theory of constraints",
+      "Limiting factor analysis",
+      "Make-or-buy"
+    ],
+    "required_conditions": "Applies when demand is growing, utilisation is at or above 90%, and delivery delays are occurring.",
+    "review_status": "draft",
+    "rule_id": "RULE-002",
+    "rule_source": "Authored deterministic rule — capacity planning / theory of constraints",
+    "title": "Capacity constraint: demand rising, utilisation near full, orders delayed",
+    "triggers": [
+      {
+        "fact_key": "demand",
+        "trend": "up"
+      },
+      {
+        "fact_key": "capacity_utilisation",
+        "gte": 0.9
+      },
+      {
+        "equals": true,
+        "fact_key": "order_delays"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "A deliberate low-margin strategy to gain market share or clear stock.",
+      "A shift in sales mix towards lower-margin products.",
+      "One-off costs (e.g. redundancy, write-downs) depressing the margin temporarily.",
+      "Changes in cost allocation or accounting policy rather than economics."
+    ],
+    "info_needed": [
+      "Selling price and input cost trends by product",
+      "Sales mix changes over the period",
+      "Competitor pricing behaviour",
+      "Breakdown of cost of sales into material, labour and overhead"
+    ],
+    "interpretation": "The business keeps less from each unit of sales. Either selling prices are under pressure or input costs are rising faster than prices can be increased.",
+    "pattern_id": "PAT-MARGIN",
+    "recommended_analysis": [
+      "Margin bridge (price vs cost vs mix effects)",
+      "Material and labour variances",
+      "Product-level contribution analysis"
+    ],
+    "relevant_concepts": [
+      "Cost-volume-profit analysis",
+      "Pricing strategy",
+      "Variance analysis"
+    ],
+    "required_conditions": "Applies when gross margin is falling over successive periods.",
+    "review_status": "draft",
+    "rule_id": "RULE-003",
+    "rule_source": "Authored deterministic rule — cost-volume-profit analysis",
+    "title": "Declining margins: gross margin trending down",
+    "triggers": [
+      {
+        "fact_key": "gross_margin",
+        "trend": "down"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "New borrowing funds value-creating investment, not distress.",
+      "Equity was eroded by losses or dividends rather than debt rising.",
+      "A revaluation or accounting change moved the ratio.",
+      "Debt was drawn temporarily against a confirmed future inflow."
+    ],
+    "info_needed": [
+      "Purpose and terms of new borrowing",
+      "Debt maturity profile and covenant headroom",
+      "Interest cover trend",
+      "Forecast cash flows available for debt service"
+    ],
+    "interpretation": "Financial risk is increasing: a larger share of capital is debt, so fixed interest obligations grow and the margin for error in a downturn shrinks.",
+    "pattern_id": "PAT-GEARING",
+    "recommended_analysis": [
+      "Gearing and interest cover trends",
+      "Debt maturity and refinancing risk review",
+      "WACC and financing-choice analysis"
+    ],
+    "relevant_concepts": [
+      "Financial risk",
+      "Capital structure",
+      "Debt covenants"
+    ],
+    "required_conditions": "Applies when the gearing ratio is rising over successive periods.",
+    "review_status": "draft",
+    "rule_id": "RULE-004",
+    "rule_source": "Authored deterministic rule — capital structure theory",
+    "title": "Rising gearing: debt burden increasing",
+    "triggers": [
+      {
+        "fact_key": "gearing",
+        "trend": "up"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "Deliberate bulk buying to secure discounts or beat expected price rises.",
+      "Stock-building ahead of a seasonal peak or confirmed large order.",
+      "Supply-chain precaution after past disruptions.",
+      "A change in product mix towards items that legitimately need more stock."
+    ],
+    "info_needed": [
+      "Inventory ageing and slow-moving/obsolete stock report",
+      "Net realisable value testing",
+      "Purchasing policy and order quantities",
+      "Sales forecasts vs stock cover"
+    ],
+    "interpretation": "More cash is locked in stock and it is turning over more slowly. This absorbs working capital and raises the risk of obsolescence and write-downs.",
+    "pattern_id": "PAT-INVENTORY",
+    "recommended_analysis": [
+      "Inventory days trend and ageing analysis",
+      "NRV and obsolescence review",
+      "EOQ / reorder-level logic check"
+    ],
+    "relevant_concepts": [
+      "Inventory management",
+      "Carrying costs",
+      "IAS 2 Inventories (principles)"
+    ],
+    "required_conditions": "Applies when inventory balances are rising and inventory days are lengthening.",
+    "review_status": "draft",
+    "rule_id": "RULE-005",
+    "rule_source": "Authored deterministic rule — inventory management theory",
+    "title": "Inventory build-up: stock rising and inventory days lengthening",
+    "triggers": [
+      {
+        "fact_key": "inventory",
+        "trend": "up"
+      },
+      {
+        "fact_key": "inventory_days",
+        "trend": "up"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "The budget itself was unrealistic or based on bad assumptions.",
+      "General price inflation moved costs, not inefficiency.",
+      "A volume change distorts fixed-cost comparisons (use a flexed budget).",
+      "One-off events outside management's control."
+    ],
+    "info_needed": [
+      "Flexed budget for the actual activity level",
+      "Price vs usage/efficiency split of each material variance",
+      "Responsibility-centre breakdown",
+      "Budget-setting assumptions and process"
+    ],
+    "interpretation": "Performance is off-plan. The variance must be split into price, usage/efficiency and volume effects to find what management can actually control.",
+    "pattern_id": "PAT-VARIANCE",
+    "recommended_analysis": [
+      "Material price and usage variances",
+      "Labour rate and efficiency variances",
+      "Flexed-budget comparison"
+    ],
+    "relevant_concepts": [
+      "Standard costing",
+      "Variance analysis",
+      "Responsibility accounting",
+      "Flexed budgets"
+    ],
+    "required_conditions": "Applies when actual results are materially adverse to budget.",
+    "review_status": "draft",
+    "rule_id": "RULE-006",
+    "rule_source": "Authored deterministic rule — standard costing / variance analysis theory",
+    "title": "Adverse budget variances: actuals materially worse than budget",
+    "triggers": [
+      {
+        "equals": "adverse",
+        "fact_key": "budget_variance"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "Cash flows are understated (e.g. follow-on opportunities omitted).",
+      "The discount rate is set too high for the project's risk.",
+      "Real-option value (expand, abandon, defer) is ignored in the NPV.",
+      "The strategic benefit is real but smaller than claimed."
+    ],
+    "info_needed": [
+      "Itemised strategic benefits with quantification attempts",
+      "Sensitivity of NPV to key assumptions",
+      "Real options embedded in the project",
+      "Opportunity cost of the capital committed"
+    ],
+    "interpretation": "On pure financial grounds the project destroys value. Strategic benefits must be specific, quantified where possible, and weighed explicitly -- 'strategic' must not become a vague excuse for a bad project.",
+    "pattern_id": "PAT-STRATEGIC-NPV",
+    "recommended_analysis": [
+      "Sensitivity and scenario analysis on the NPV",
+      "Real-option framing (expand/abandon/defer)",
+      "Explicit cost-benefit of the strategic claims"
+    ],
+    "relevant_concepts": [
+      "NPV decision rule",
+      "Real options",
+      "Strategic investment appraisal"
+    ],
+    "required_conditions": "Applies when a project's NPV is negative but management claims strategic benefits justify it.",
+    "review_status": "draft",
+    "rule_id": "RULE-007",
+    "rule_source": "Authored deterministic rule — NPV decision rule / real-options theory",
+    "title": "NPV negative but strategic benefits claimed",
+    "triggers": [
+      {
+        "fact_key": "npv",
+        "lt": 0
+      },
+      {
+        "equals": true,
+        "fact_key": "strategic_benefit"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "Projects differ greatly in scale (IRR is a percentage, NPV is absolute).",
+      "Cash-flow timing differences favour the earlier-returning project under IRR.",
+      "The IRR reinvestment assumption is unrealistic for this business.",
+      "One project's cash flows are less certain than the other's."
+    ],
+    "info_needed": [
+      "Project sizes and cash-flow timing profiles",
+      "The cost of capital used for NPV",
+      "Realistic reinvestment opportunities for interim cash flows",
+      "Whether projects are truly mutually exclusive"
+    ],
+    "interpretation": "The two methods disagree, usually because of differences in project scale or cash-flow timing, or the reinvestment assumption buried in IRR. NPV at the cost of capital is the theoretically superior rule.",
+    "pattern_id": "PAT-APPRAISAL-CONFLICT",
+    "recommended_analysis": [
+      "NPV at the cost of capital for both projects",
+      "Incremental IRR on the difference in cash flows",
+      "Scale-adjusted comparison"
+    ],
+    "relevant_concepts": [
+      "Reinvestment assumption",
+      "Mutually exclusive projects",
+      "NPV vs IRR"
+    ],
+    "required_conditions": "Applies when IRR ranks mutually exclusive projects differently from NPV.",
+    "review_status": "draft",
+    "rule_id": "RULE-008",
+    "rule_source": "Authored deterministic rule — capital appraisal theory (reinvestment assumption)",
+    "title": "IRR vs NPV conflict on mutually exclusive projects",
+    "triggers": [
+      {
+        "equals": "irr_npv",
+        "fact_key": "appraisal_conflict"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "The in-house cost includes allocated overhead that would not actually be saved.",
+      "The quote is a loss-leader or excludes hidden costs (transport, quality control).",
+      "Quality, lead time or reliability differences outweigh the price gap.",
+      "In-house production protects a strategic capability."
+    ],
+    "info_needed": [
+      "Avoidable vs unavoidable cost split for in-house production",
+      "Full landed cost of the supplier quote (transport, duties, QC)",
+      "Alternative use and value of released capacity",
+      "Supplier reliability, quality record and contract terms"
+    ],
+    "interpretation": "Outsourcing may save money, but only relevant (avoidable) costs count. Allocated fixed overhead that will not disappear must be ignored, and the value of released capacity must be included.",
+    "pattern_id": "PAT-MAKEBUY",
+    "recommended_analysis": [
+      "Relevant-cost make-vs-buy comparison",
+      "Opportunity cost of released capacity",
+      "Supplier risk assessment"
+    ],
+    "relevant_concepts": [
+      "Relevant costing",
+      "Opportunity cost",
+      "Strategic sourcing"
+    ],
+    "required_conditions": "Applies when an external supplier quotes below the apparent in-house cost.",
+    "review_status": "draft",
+    "rule_id": "RULE-009",
+    "rule_source": "Authored deterministic rule — relevant costing principles",
+    "title": "Make-or-buy signal: supplier quote below in-house cost",
+    "triggers": [
+      {
+        "equals": true,
+        "fact_key": "supplier_quote_below_cost"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "Spare capacity may be temporary; the order could displace future full-price sales.",
+      "The low price could leak to existing customers and erode normal pricing.",
+      "The order may carry hidden costs (customisation, overtime, penalties).",
+      "Accepting sets a precedent the customer will exploit."
+    ],
+    "info_needed": [
+      "Spare capacity position and its expected duration",
+      "Variable cost per unit and any incremental fixed costs",
+      "Whether any regular sales would be displaced",
+      "Customer relationship and price-confidentiality safeguards"
+    ],
+    "interpretation": "The order should be judged on incremental profit: special price vs incremental (relevant) costs, including any contribution lost from displaced regular sales. Sunk and unavoidable fixed costs are irrelevant.",
+    "pattern_id": "PAT-SPECIAL-ORDER",
+    "recommended_analysis": [
+      "Incremental profit calculation",
+      "Capacity and displacement check",
+      "Price-precedent risk assessment"
+    ],
+    "relevant_concepts": [
+      "Incremental analysis",
+      "Relevant costing",
+      "Opportunity cost"
+    ],
+    "required_conditions": "Applies when a one-off order is offered at a price below normal selling price.",
+    "review_status": "draft",
+    "rule_id": "RULE-010",
+    "rule_source": "Authored deterministic rule — incremental analysis",
+    "title": "Special order opportunity: one-off order at a special price",
+    "triggers": [
+      {
+        "equals": true,
+        "fact_key": "special_order_offer"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "The bottleneck is short-term (breakdown, absence) rather than structural.",
+      "Demand, not the resource, is the real constraint for some products.",
+      "The constraint could be eased cheaply (overtime, minor investment).",
+      "Multiple constraints bind at once, needing fuller optimisation."
+    ],
+    "info_needed": [
+      "Contribution per unit and limiting-factor usage per product",
+      "Maximum demand per product",
+      "Cost of easing the constraint",
+      "Whether other resources also bind"
+    ],
+    "interpretation": "With one binding constraint, profit is maximised by ranking products on contribution per unit of the limiting factor -- not on contribution per unit of product.",
+    "pattern_id": "PAT-LIMITING-FACTOR",
+    "recommended_analysis": [
+      "Contribution per limiting-factor unit ranking",
+      "Optimal product mix with demand limits",
+      "Cost-benefit of easing the bottleneck"
+    ],
+    "relevant_concepts": [
+      "Limiting-factor analysis",
+      "Throughput",
+      "Product mix"
+    ],
+    "required_conditions": "Applies when a single scarce resource (machine hours, labour, material) limits production.",
+    "review_status": "draft",
+    "rule_id": "RULE-011",
+    "rule_source": "Authored deterministic rule — limiting-factor / throughput analysis",
+    "title": "Limiting factor: a scarce resource constrains output",
+    "triggers": [
+      {
+        "equals": true,
+        "fact_key": "limiting_factor"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "The competitor's cut is a short promotion, not a structural move.",
+      "The competitor has a genuine cost advantage the business cannot match.",
+      "Customers value the business's differentiation more than price.",
+      "The cut targets a segment the business does not serve."
+    ],
+    "info_needed": [
+      "Own variable cost and breakeven at candidate prices",
+      "Price elasticity and customer switching behaviour",
+      "Competitor cost position and staying power",
+      "Differentiation and non-price competitive strengths"
+    ],
+    "interpretation": "Matching the cut is not automatic. The right response depends on cost position, differentiation, and how customers actually choose -- a price war destroys margin for everyone.",
+    "pattern_id": "PAT-PRICING",
+    "recommended_analysis": [
+      "Breakeven volumes at candidate prices",
+      "Contribution impact of matching vs holding price",
+      "Competitor cost and response analysis"
+    ],
+    "relevant_concepts": [
+      "Pricing strategies",
+      "Price elasticity",
+      "Competitive strategy"
+    ],
+    "required_conditions": "Applies when a competitor cuts prices and the business must respond.",
+    "review_status": "draft",
+    "rule_id": "RULE-012",
+    "rule_source": "Authored deterministic rule — pricing theory",
+    "title": "Pricing pressure: competitor has cut prices",
+    "triggers": [
+      {
+        "equals": true,
+        "fact_key": "competitor_price_cut"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "A natural hedge exists (inflows and outflows in the same currency).",
+      "Prices can be passed through to customers (pricing power).",
+      "The exposure is short-term and immaterial in size.",
+      "Volatility is high but the trend consistently favours the business."
+    ],
+    "info_needed": [
+      "Currency split, amounts and timing of exposed cash flows",
+      "Natural hedges already in place",
+      "Costs of forwards, options and other hedges",
+      "Ability to invoice in home currency or pass through prices"
+    ],
+    "interpretation": "Currency moves can wipe out margins on foreign transactions. The exposure should be quantified (amount, currency, timing) and a hedging or pricing response chosen deliberately.",
+    "pattern_id": "PAT-FX",
+    "recommended_analysis": [
+      "Exposure quantification by currency and date",
+      "Hedge cost-benefit (forwards vs options)",
+      "Pricing/invoicing-currency alternatives"
+    ],
+    "relevant_concepts": [
+      "Transaction exposure",
+      "Hedging instruments",
+      "Risk management"
+    ],
+    "required_conditions": "Applies when the business has material foreign-currency cash flows and exchange rates are volatile.",
+    "review_status": "draft",
+    "rule_id": "RULE-013",
+    "rule_source": "Authored deterministic rule — foreign-exchange risk management theory",
+    "title": "Foreign-exchange exposure with high currency volatility",
+    "triggers": [
+      {
+        "equals": true,
+        "fact_key": "fx_exposure"
+      },
+      {
+        "equals": "high",
+        "fact_key": "exchange_volatility"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "Rate rises are expected to reverse quickly.",
+      "The business's income also rises with rates (natural offset).",
+      "Debt can be repaid or refinanced on fixed terms cheaply.",
+      "Covenant headroom is large enough to absorb the rise."
+    ],
+    "info_needed": [
+      "Debt repricing schedule and sensitivity to a 1% rise",
+      "Covenant terms and headroom",
+      "Cost of fixing rates (swaps, caps, fixed refinancing)",
+      "Forecast cash flows under higher rates"
+    ],
+    "interpretation": "Debt servicing costs will rise automatically, squeezing profit and cash flow and potentially breaching covenants. The exposure should be measured and managed.",
+    "pattern_id": "PAT-INTEREST-RATE",
+    "recommended_analysis": [
+      "Interest-rate sensitivity of profit and cash flow",
+      "Hedge comparison (swap vs cap vs fixed refinancing)",
+      "Covenant headroom stress test"
+    ],
+    "relevant_concepts": [
+      "Interest-rate risk",
+      "Hedging",
+      "Debt covenants"
+    ],
+    "required_conditions": "Applies when the business carries floating-rate debt and interest rates are rising.",
+    "review_status": "draft",
+    "rule_id": "RULE-014",
+    "rule_source": "Authored deterministic rule — interest-rate risk management theory",
+    "title": "Interest-rate exposure: floating-rate debt as rates rise",
+    "triggers": [
+      {
+        "equals": true,
+        "fact_key": "floating_rate_debt"
+      },
+      {
+        "fact_key": "interest_rate",
+        "trend": "up"
+      }
+    ]
+  },
+  {
+    "alternative_explanations": [
+      "A seasonal dip that reverses with the trading cycle.",
+      "Timing of a large receipt just after the period-end.",
+      "Strong undrawn facilities that the ratio does not show.",
+      "A planned, funded investment temporarily depressing cash."
+    ],
+    "info_needed": [
+      "Short-term cash flow forecast (13-week view)",
+      "Undrawn borrowing facilities and their conditions",
+      "Aged payables and creditor pressure",
+      "Quality and realisability of current assets"
+    ],
+    "interpretation": "Short-term liabilities exceed short-term assets and cash is draining: the business may struggle to pay its bills as they fall due. This is urgent regardless of reported profit.",
+    "pattern_id": "PAT-LIQUIDITY",
+    "recommended_analysis": [
+      "Liquidity ratios and trend",
+      "Cash flow forecast and funding gap",
+      "Creditor and facility review"
+    ],
+    "relevant_concepts": [
+      "Liquidity management",
+      "Cash flow forecasting",
+      "Working capital"
+    ],
+    "required_conditions": "Applies when the current ratio is below 1.0 and cash balances are falling.",
+    "review_status": "draft",
+    "rule_id": "RULE-015",
+    "rule_source": "Authored deterministic rule — liquidity management theory",
+    "title": "Liquidity crunch: current ratio below 1 and cash falling",
+    "triggers": [
+      {
+        "fact_key": "current_ratio",
+        "lt": 1
+      },
+      {
+        "fact_key": "cash_balance",
+        "trend": "down"
+      }
+    ]
+  },
+  {
+    "rule_id": "RULE-016",
+    "pattern_id": "PAT-OVERTRADING",
+    "title": "Overtrading: rapid sales growth funded by stretching creditors",
+    "triggers": [
+      {
+        "fact_key": "revenue",
+        "trend": "up"
+      },
+      {
+        "fact_key": "payable_days",
+        "trend": "up"
+      },
+      {
+        "fact_key": "short_term_borrowing",
+        "trend": "up"
+      }
+    ],
+    "required_conditions": "Applies when revenue is growing fast while payable days lengthen and short-term borrowing rises.",
+    "interpretation": "The business is growing faster than its capital base can support: working capital is funded by delaying suppliers and borrowing short-term. This is overtrading -- profitable on paper but fragile, and it can collapse suddenly if credit is withdrawn.",
+    "alternative_explanations": [
+      "A planned, funded expansion where the funding is already arranged.",
+      "Seasonal working-capital needs that reverse after the peak.",
+      "A one-off large contract distorting the trends.",
+      "Suppliers voluntarily offering longer terms as a relationship benefit."
+    ],
+    "info_needed": [
+      "Cash conversion cycle trend",
+      "Ageing of payables and creditor pressure signs",
+      "Short-term facility limits and utilisation",
+      "Forecast funding gap under continued growth"
+    ],
+    "relevant_concepts": [
+      "Overtrading",
+      "Working capital cycle",
+      "Liquidity risk"
+    ],
+    "recommended_analysis": [
+      "Cash conversion cycle and funding-gap analysis",
+      "Liquidity ratios trend",
+      "Sensitivity of cash to growth assumptions"
+    ],
+    "rule_source": "Authored deterministic rule — overtrading literature",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-017",
+    "pattern_id": "PAT-DIVIDEND",
+    "title": "Dividend vs retention tension: payout pressure alongside investment needs",
+    "triggers": [
+      {
+        "fact_key": "dividend_pressure",
+        "equals": true
+      },
+      {
+        "fact_key": "investment_opportunities",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when shareholders expect dividends but the business also has attractive investment opportunities needing funds.",
+    "interpretation": "Cash paid out cannot fund growth. The choice signals to the market: cutting dividends may depress the share price, but over-distributing starves value-creating investment and may force expensive external finance.",
+    "alternative_explanations": [
+      "The investment opportunities are weaker than claimed.",
+      "Dividend expectations are assumed, not actually expressed by shareholders.",
+      "External finance is cheap and readily available, easing the tension.",
+      "A stable dividend is needed for signalling in this market."
+    ],
+    "info_needed": [
+      "Distributable profits and dividend cover",
+      "Capex pipeline with expected returns",
+      "Cost and availability of external finance",
+      "Shareholder composition and expectations"
+    ],
+    "relevant_concepts": [
+      "Dividend policy",
+      "Signalling",
+      "Agency theory",
+      "Pecking order"
+    ],
+    "recommended_analysis": [
+      "Dividend cover and funding-need analysis",
+      "Financing-choice comparison",
+      "Shareholder impact assessment"
+    ],
+    "rule_source": "Authored deterministic rule — dividend policy theory",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-018",
+    "pattern_id": "PAT-RIGHTS-ISSUE",
+    "title": "Rights issue: dilution and pricing effects of the fundraising",
+    "triggers": [
+      {
+        "fact_key": "rights_issue",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when the business proposes a rights issue to existing shareholders.",
+    "interpretation": "Existing shareholders face dilution unless they take up their rights; the theoretical ex-rights price (TERP) sets the benchmark for whether the terms are fair, and the discount depth affects take-up.",
+    "alternative_explanations": [
+      "Debt finance may be cheaper or less dilutive.",
+      "The discount is small and the issue is effectively at market price.",
+      "Major shareholders have already committed to take up their rights."
+    ],
+    "info_needed": [
+      "Rights terms (ratio, subscription price) and TERP calculation",
+      "Use of proceeds and expected return on the funds raised",
+      "Effect on EPS, gearing and control",
+      "Underwriting arrangements and costs"
+    ],
+    "relevant_concepts": [
+      "Dilution",
+      "TERP",
+      "Pre-emption rights",
+      "Financing choice"
+    ],
+    "recommended_analysis": [
+      "TERP and dilution computation",
+      "EPS and gearing impact",
+      "Use-of-proceeds appraisal"
+    ],
+    "rule_source": "Authored deterministic rule — rights-issue mechanics",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-019",
+    "pattern_id": "PAT-MA-SYNERGY",
+    "title": "M&A synergy claims: promised benefits may not materialise",
+    "triggers": [
+      {
+        "fact_key": "synergy_claim",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when an acquisition case rests on synergy benefits (cost savings, revenue uplift).",
+    "interpretation": "Synergies are easy to promise and hard to deliver: integration costs, culture clashes and customer losses routinely erode them. The premium paid must be justified by synergies that survive scrutiny, or the acquirer's shareholders lose.",
+    "alternative_explanations": [
+      "The acquirer has a strong, evidenced integration track record.",
+      "Synergies are cost-based and largely within management's control.",
+      "The target is genuinely undervalued on a standalone basis."
+    ],
+    "info_needed": [
+      "Synergy sources itemised (cost vs revenue) with timing",
+      "Integration costs and risks",
+      "Due-diligence findings on the target",
+      "Walk-away price based on standalone value"
+    ],
+    "relevant_concepts": [
+      "Valuation",
+      "Winner's curse",
+      "Integration risk",
+      "Accretion/dilution"
+    ],
+    "recommended_analysis": [
+      "DCF of synergies vs premium paid",
+      "Scenario analysis including synergy failure",
+      "Accretion/dilution analysis"
+    ],
+    "rule_source": "Authored deterministic rule — M&A valuation theory",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-020",
+    "pattern_id": "PAT-ETHICS",
+    "title": "Ethical red flag: pressure or opportunity to act unethically",
+    "triggers": [
+      {
+        "fact_key": "ethical_red_flag",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when facts suggest pressure to misstate, conceal, or bypass ethical/professional standards.",
+    "interpretation": "This is not a technical optimisation problem: integrity and objectivity come first. Apply a structured ethical decision model, consider all affected stakeholders, and escalate through proper channels rather than acting alone.",
+    "alternative_explanations": [
+      "A genuine error or misunderstanding, not intentional wrongdoing.",
+      "Commercial pressure being misread as unethical pressure.",
+      "Adequate safeguards already exist and are working."
+    ],
+    "info_needed": [
+      "Full facts: who, what, when, and documentary evidence",
+      "Applicable code of ethics and professional standards",
+      "Available safeguards and escalation/whistleblowing channels",
+      "Stakeholders affected and how"
+    ],
+    "relevant_concepts": [
+      "Professional ethics",
+      "Fraud triangle",
+      "Stakeholder impact",
+      "Whistleblowing"
+    ],
+    "recommended_analysis": [
+      "Structured ethical decision model (Tucker / AAA)",
+      "Stakeholder impact mapping",
+      "Safeguard and escalation review"
+    ],
+    "rule_source": "Authored deterministic rule — professional ethics principles",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-021",
+    "pattern_id": "PAT-SYSTEMS",
+    "title": "Data/systems inadequacy: systems cannot support the decision",
+    "triggers": [
+      {
+        "fact_key": "systems_adequate",
+        "equals": false
+      }
+    ],
+    "required_conditions": "Applies when manual or technology-based systems and controls are inadequate for reliable data.",
+    "interpretation": "Decisions built on unreliable data are unreliable. Fix the data and control foundation -- or explicitly qualify every conclusion -- before committing resources on the back of these numbers.",
+    "alternative_explanations": [
+      "A training/usage gap rather than a system capability gap.",
+      "Controls exist but are not operated consistently.",
+      "The inadequacy affects only non-critical data."
+    ],
+    "info_needed": [
+      "Specific system/control gaps and their impact on data quality",
+      "Cost and timeline of remediation options",
+      "Compensating manual controls in the interim",
+      "Data-quality testing results"
+    ],
+    "relevant_concepts": [
+      "Internal control",
+      "Data quality",
+      "Systems adequacy"
+    ],
+    "recommended_analysis": [
+      "Control gap review",
+      "Cost-benefit of system upgrade",
+      "Data-quality testing"
+    ],
+    "rule_source": "Authored deterministic rule — internal control theory",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-022",
+    "pattern_id": "PAT-DISRUPTION",
+    "title": "Technology disruption threat to the business model",
+    "triggers": [
+      {
+        "fact_key": "tech_disruption",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when a technology threatens to substitute the product, service or channel.",
+    "interpretation": "Disruption can strand assets and collapse margins faster than forecasts assume. The response ranges from adopting the technology to pivoting the business model -- but denial is the costliest option.",
+    "alternative_explanations": [
+      "Hype: the technology is immature or uneconomic at scale.",
+      "The business's relationships, brand or regulation protect it.",
+      "The technology complements rather than substitutes the offering."
+    ],
+    "info_needed": [
+      "Technology adoption rates and cost curves",
+      "Which customer jobs the technology does better",
+      "Own R&D and partnership options",
+      "Asset stranding exposure"
+    ],
+    "relevant_concepts": [
+      "Innovation",
+      "Product life cycle",
+      "Business model",
+      "Real options"
+    ],
+    "recommended_analysis": [
+      "Scenario planning (adopt / partner / pivot)",
+      "Real-option valuation of response investments",
+      "PESTEL technology scan"
+    ],
+    "rule_source": "Authored deterministic rule — innovation/disruption literature",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-023",
+    "pattern_id": "PAT-NEW-ENTRANT",
+    "title": "New entrant competition threatening market position",
+    "triggers": [
+      {
+        "fact_key": "new_entrant",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when a new competitor enters or credibly threatens to enter the market.",
+    "interpretation": "Entry pressure squeezes prices and market share. The defence depends on barriers to entry (scale, brand, switching costs, regulation) and on whether the entrant targets the core or a niche.",
+    "alternative_explanations": [
+      "The entrant targets a niche the business does not serve.",
+      "Barriers to entry are high and the threat is not credible.",
+      "The entrant may become an acquisition or partnership opportunity."
+    ],
+    "info_needed": [
+      "Entrant's resources, pricing and target segment",
+      "Barriers to entry and their durability",
+      "Own cost position vs the entrant",
+      "Customer switching costs and loyalty"
+    ],
+    "relevant_concepts": [
+      "Porter's five forces",
+      "Barriers to entry",
+      "Competitive advantage"
+    ],
+    "recommended_analysis": [
+      "Five-forces update",
+      "Competitor benchmarking",
+      "Defensive strategy options"
+    ],
+    "rule_source": "Authored deterministic rule — competitive strategy (Porter)",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-024",
+    "pattern_id": "PAT-SUPPLIER-POWER",
+    "title": "Supplier power: concentrated supply base creates dependency",
+    "triggers": [
+      {
+        "fact_key": "supplier_concentration",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when a small number of suppliers account for a large share of inputs.",
+    "interpretation": "Powerful suppliers can raise prices, dictate terms or disrupt supply. Single-sourcing may look efficient until the supplier fails or reprices -- resilience has a cost worth paying.",
+    "alternative_explanations": [
+      "A strong, long-term partnership with aligned incentives.",
+      "Switching costs are low in practice despite concentration.",
+      "The supplier depends on the business as much as vice versa."
+    ],
+    "info_needed": [
+      "Share of spend per supplier and contract terms",
+      "Alternative suppliers and switching costs",
+      "Total cost of dual-sourcing vs single-sourcing",
+      "Supplier financial health"
+    ],
+    "relevant_concepts": [
+      "Porter's five forces",
+      "Supply-chain risk",
+      "Total cost of ownership"
+    ],
+    "recommended_analysis": [
+      "Supplier concentration and dependency mapping",
+      "Dual-sourcing cost-benefit",
+      "Value-chain review"
+    ],
+    "rule_source": "Authored deterministic rule — supply-chain risk",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-025",
+    "pattern_id": "PAT-CUSTOMER-CONCENTRATION",
+    "title": "Customer concentration: over-dependence on a key customer",
+    "triggers": [
+      {
+        "fact_key": "largest_customer_share",
+        "gt": 0.3
+      }
+    ],
+    "required_conditions": "Applies when the largest customer accounts for more than 30% of revenue.",
+    "interpretation": "Losing one customer would remove over 30% of revenue -- a severe concentration risk. The customer also gains bargaining power over price and terms.",
+    "alternative_explanations": [
+      "A secure long-term contract with the customer.",
+      "A genuine strategic partnership, not a transactional dependency.",
+      "The concentration is temporary (e.g. one large project)."
+    ],
+    "info_needed": [
+      "Contract terms, duration and renewal risk",
+      "Customer profitability after servicing costs",
+      "Pipeline for diversifying the customer base",
+      "Credit exposure to the customer"
+    ],
+    "relevant_concepts": [
+      "Credit risk",
+      "Bargaining power",
+      "Revenue diversification"
+    ],
+    "recommended_analysis": [
+      "Customer profitability analysis",
+      "Concentration stress test",
+      "Diversification plan"
+    ],
+    "rule_source": "Authored deterministic rule — credit-risk management",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-026",
+    "pattern_id": "PAT-COST-OVERRUN",
+    "title": "Project cost overrun: actual costs materially above budget",
+    "triggers": [
+      {
+        "fact_key": "project_cost_variance",
+        "equals": "adverse"
+      }
+    ],
+    "required_conditions": "Applies when a project's costs are running materially over budget.",
+    "interpretation": "The overrun must be diagnosed: scope change, bad estimating, inefficiency or inflation each demand a different response. The forecast at completion -- not just the variance to date -- drives the decision to continue, re-scope or stop.",
+    "alternative_explanations": [
+      "Approved scope changes that the budget was never updated for.",
+      "Front-loaded costs that will reverse later in the project.",
+      "Inflation or FX movements outside the team's control."
+    ],
+    "info_needed": [
+      "Earned-value / progress vs spend data",
+      "Change log: approved vs unapproved scope changes",
+      "Revised forecast at completion",
+      "Root causes by cost category"
+    ],
+    "relevant_concepts": [
+      "Project control",
+      "Earned value",
+      "Forecast at completion"
+    ],
+    "recommended_analysis": [
+      "Variance analysis by cost category",
+      "Forecast-at-completion modelling",
+      "Continue / re-scope / stop decision"
+    ],
+    "rule_source": "Authored deterministic rule — project control concepts",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-027",
+    "pattern_id": "PAT-SENSITIVITY",
+    "title": "High sensitivity: small assumption changes flip the decision",
+    "triggers": [
+      {
+        "fact_key": "sensitivity_high",
+        "equals": true
+      }
+    ],
+    "required_conditions": "Applies when the appraisal outcome is highly sensitive to one or more key variables.",
+    "interpretation": "The decision rests on a knife-edge: small, plausible moves in a key variable change the recommendation. Either gather better data on that variable, build in flexibility, or require a bigger margin of safety.",
+    "alternative_explanations": [
+      "The base case is deliberately conservative, so sensitivity overstates risk.",
+      "Mitigants exist (hedges, flexible contracts) that the model ignores.",
+      "The sensitive variable is actually well understood and stable."
+    ],
+    "info_needed": [
+      "Ranges and likelihoods for the sensitive variables",
+      "Breakeven values of each key variable",
+      "Available mitigants and their costs",
+      "Quality of the underlying estimates"
+    ],
+    "relevant_concepts": [
+      "Sensitivity analysis",
+      "Risk analysis",
+      "Margin of safety"
+    ],
+    "recommended_analysis": [
+      "Sensitivity and breakeven analysis",
+      "Scenario / expected-value analysis",
+      "Mitigant cost-benefit"
+    ],
+    "rule_source": "Authored deterministic rule — risk and sensitivity analysis",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-028",
+    "pattern_id": "PAT-PROFIT-LESS-GROWTH",
+    "title": "Revenue growth without profit growth",
+    "triggers": [
+      {
+        "fact_key": "revenue",
+        "trend": "up"
+      },
+      {
+        "fact_key": "operating_profit",
+        "trend": "down"
+      }
+    ],
+    "required_conditions": "Applies when revenue is growing but operating profit is falling.",
+    "interpretation": "Growth is value-destroying at the margin: each extra unit of sales adds cost faster than revenue. Common causes are discounting to buy volume, rising input costs, or an adverse mix shift.",
+    "alternative_explanations": [
+      "Deliberate investment phase (marketing, capacity) ahead of returns.",
+      "One-off costs depressing this period's profit.",
+      "Growth in a new, initially low-margin segment."
+    ],
+    "info_needed": [
+      "Price, volume and mix effects on revenue",
+      "Cost behaviour: which costs grew faster than sales and why",
+      "Segment-level profitability",
+      "Whether discounting drove the volume"
+    ],
+    "relevant_concepts": [
+      "Operating leverage",
+      "Contribution analysis",
+      "Pricing"
+    ],
+    "recommended_analysis": [
+      "Revenue bridge (price/volume/mix)",
+      "Breakeven and contribution analysis",
+      "Segment profitability"
+    ],
+    "rule_source": "Authored deterministic rule — cost-volume-profit analysis",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-029",
+    "pattern_id": "PAT-EARNINGS-QUALITY",
+    "title": "Profit/cash divergence: profit up, operating cash flow down",
+    "triggers": [
+      {
+        "fact_key": "profit_after_tax",
+        "trend": "up"
+      },
+      {
+        "fact_key": "operating_cash_flow",
+        "trend": "down"
+      }
+    ],
+    "required_conditions": "Applies when reported profit is rising but operating cash flow is falling.",
+    "interpretation": "Earnings quality is suspect: profit is increasingly made of accruals and working-capital absorption rather than cash. Persistent divergence can signal aggressive recognition or simply a business consuming cash to grow.",
+    "alternative_explanations": [
+      "Working-capital investment for genuine growth.",
+      "Timing differences that will reverse next period.",
+      "Large non-cash charges (e.g. depreciation on new investment)."
+    ],
+    "info_needed": [
+      "Operating cash flow to profit reconciliation",
+      "Accruals and working-capital movements detail",
+      "Revenue recognition policies and any changes",
+      "Aged receivables and inventory"
+    ],
+    "relevant_concepts": [
+      "Earnings quality",
+      "Accruals",
+      "Cash flow analysis"
+    ],
+    "recommended_analysis": [
+      "Cash flow vs profit reconciliation",
+      "Accruals ratio analysis",
+      "Working-capital movement review"
+    ],
+    "rule_source": "Authored deterministic rule — earnings-quality literature",
+    "review_status": "draft"
+  },
+  {
+    "rule_id": "RULE-030",
+    "pattern_id": "PAT-OP-LEVERAGE-RISK",
+    "title": "Operating-leverage risk: high fixed costs meet volatile demand",
+    "triggers": [
+      {
+        "fact_key": "fixed_cost_share",
+        "equals": "high"
+      },
+      {
+        "fact_key": "demand_volatility",
+        "equals": "high"
+      }
+    ],
+    "required_conditions": "Applies when fixed costs are a high share of total costs and demand is volatile.",
+    "interpretation": "High operating leverage turns demand swings into large profit swings: good in booms, dangerous in downturns. The breakeven point sits high, so even modest volume shortfalls create losses.",
+    "alternative_explanations": [
+      "Fixed costs are committed but demand volatility is overstated.",
+      "Pricing power allows margins to absorb volume swings.",
+      "Costs can be flexed quickly (outsourcing, variable contracts)."
+    ],
+    "info_needed": [
+      "Fixed vs variable cost split",
+      "Breakeven volume vs demand scenarios",
+      "Demand volatility history and drivers",
+      "Options to variabilise costs"
+    ],
+    "relevant_concepts": [
+      "Operating leverage",
+      "Breakeven analysis",
+      "Margin of safety"
+    ],
+    "recommended_analysis": [
+      "Breakeven and margin-of-safety analysis",
+      "Scenario analysis on demand",
+      "Cost-flexibility options review"
+    ],
+    "rule_source": "Authored deterministic rule — operating leverage theory",
+    "review_status": "draft"
+  }
+]

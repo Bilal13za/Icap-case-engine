@@ -1,0 +1,7 @@
+# ICAP Business Case Analysis and Decision Engine — dependencies
+# Loose major-version pins per build notes. Settings/config/rule files use
+# stdlib json only (a previous Windows build failed on a C-extension install,
+# so no compiled config-file library is used).
+streamlit>=1.32
+openpyxl>=3.1
+pytest>=8

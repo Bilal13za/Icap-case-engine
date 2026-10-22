@@ -1,0 +1,284 @@
+{
+ "concepts": [
+  {
+   "concept_id": "CON-SWOT",
+   "name": "SWOT Analysis",
+   "definition": "Framework analysing internal Strengths and Weaknesses and external Opportunities and Threats.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "A-a",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-PORTER5",
+   "name": "Porter's Five Forces Model",
+   "definition": "Industry analysis via five forces: new entrants, supplier power, buyer power, substitutes, rivalry.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "A-a",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-PLC",
+   "name": "Product Life Cycle Model",
+   "definition": "Stages of introduction, growth, maturity and decline, with implications for strategy and finance.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "A-a",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-BCG",
+   "name": "Boston Consulting Group Matrix",
+   "definition": "Portfolio matrix of relative market share vs market growth: Stars, Cash Cows, Question Marks, Dogs.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "A-a",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-TUCKER5",
+   "name": "Ethical decision making - Tucker's 5-question Model (Presented by Graham Tucker)",
+   "definition": "Five ethical screens: is it profitable, legal, fair, right, and sustainable/consistent with values?",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "A-c",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-AAA7",
+   "name": "Ethical decision making - American Accounting Association 7-step Model",
+   "definition": "Seven-step ethical decision process from fact-finding through alternatives to decision.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "A-c",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-ISO31000",
+   "name": "ISO 31000 Risk management — Guidelines issued by International Standardization Organization",
+   "definition": "Principles, framework and process for managing risk: identification, analysis, evaluation, treatment, monitoring.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "B",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-CAPM-CAF6",
+   "name": "Capital Asset Pricing Model",
+   "definition": "Model of expected return given systematic risk: E(R) = Rf + beta × (Rm − Rf).",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "B",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-HEDGE-IR-CAF6",
+   "name": "Hedging interest rate: Futures, Options and Forward agreement excluding hedge efficiency",
+   "definition": "Use of futures, options and forward agreements to hedge interest-rate exposure.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "B",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-HEDGE-FX-CAF6",
+   "name": "Hedging Foreign Exchange: Currency futures, Options, Forward and Money Market hedge excluding hedge efficiency",
+   "definition": "Use of currency futures, options, forwards and money-market hedges for FX exposure.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "B",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-COMMSEC-CAF6",
+   "name": "Commodity and security: Forward and future contracts",
+   "definition": "Forward and futures contracts on commodities and securities for hedging.",
+   "paper_id": "PAPER-CAF6-2021",
+   "topic_ref": "B",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-CAPAPP",
+   "name": "Capital Investment Appraisal Techniques - NPV, APV, IRR, MIRR, EIRR, payback, capital rationing, profitability index, scenario planning and replacement and sensitivity analysis",
+   "definition": "Toolkit for appraising capital projects, including discounted and non-discounted techniques and risk analysis.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "1",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-VALTECH",
+   "name": "Valuation techniques - Dividend yield, Price earning, discounted cash flows, asset based valuation techniques",
+   "definition": "Methods for valuing businesses and shares: dividend, earnings-multiple, DCF and asset-based approaches.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "1",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-APT",
+   "name": "Arbitrage Pricing Theory (APT)",
+   "definition": "Multi-factor model of expected return based on sensitivity to macroeconomic factors.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-WACC",
+   "name": "Weighted average cost of capital (WACC)",
+   "definition": "Blended cost of capital weighted by market values of equity and debt (after tax).",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-COSTEQUITY",
+   "name": "Cost and market value of the equity-dividend discount model, CAPM model, Free cashflows model",
+   "definition": "Approaches to estimating the cost and market value of equity.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-COSTDEBT",
+   "name": "Cost and market value of debt - Effective interest cost discounting model, spot and yield to maturity or yield to call.",
+   "definition": "Approaches to estimating the cost and market value of debt.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-SHAREHOLDER",
+   "name": "Shareholder value - Dividend payout, dividend irrelevant theory, the impact of right issue including yield adjusted theoretical ex-right price, effect on effective holding and maintenance of wealth",
+   "definition": "Dividend policy, dividend irrelevance, and rights-issue effects including TERP and wealth maintenance.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "1",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-CAPSTRUCT",
+   "name": "Capital Structure theory",
+   "definition": "Theory of how the debt-equity mix affects firm value and cost of capital.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-TRADITION",
+   "name": "Tradition theory of capital structure",
+   "definition": "Traditional view: moderate debt lowers WACC up to a point, beyond which financial risk raises it.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-MM",
+   "name": "Modigliani and Miller theory - valuation, capital structure, profit distribution, cost of capital and arbitrage gains in case of mispriced securities, optimal capital structure",
+   "definition": "MM propositions on capital structure irrelevance (without tax), valuation, dividends and arbitrage.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-PORTSEL",
+   "name": "Portfolio selection – Diversifiable and non-diversifiable risks, the concept of correlation and covariance and two, three and multiple asset portfolio",
+   "definition": "Diversification across two, three and multiple assets using correlation and covariance.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-CAPM-CFAP4",
+   "name": "Capital Asset Pricing Model – Cost of equity, ungearing and re-gearing beta, under and overvalued securities based on security market line (SML)",
+   "definition": "CAPM for cost of equity, beta ungearing/re-gearing, and SML-based mispricing analysis.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "2",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-HEDGEIR-CFAP4",
+   "name": "Hedging interest rate : Futures, Options, Swaps, Swaptions and Forward agreement",
+   "definition": "Interest-rate hedging with futures, options, swaps, swaptions and forwards.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "3",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-HEDGEFX-CFAP4",
+   "name": "Hedging Foreign Exchange : Currency futures, Swaps, Options, Forward, Swaptions and Money Market hedge",
+   "definition": "FX hedging with currency futures, swaps, options, forwards, swaptions and money-market hedges.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "3",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-COMMSEC-CFAP4",
+   "name": "Commodity and security: Forward and future contracts",
+   "definition": "Forward and futures contracts on commodities and securities for hedging.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "3",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-LIQRISK",
+   "name": "Liquidity risk management through liquidity indicators, stress testing, forecasting, contingency planning.",
+   "definition": "Managing short-term funding risk via indicators, stress tests, forecasts and contingency plans.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "3",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  },
+  {
+   "concept_id": "CON-CREDITRISK",
+   "name": "Credit risk management through financial and non-financial analysis, factoring and insurance",
+   "definition": "Managing counterparty default risk via credit analysis, limits, factoring and insurance.",
+   "paper_id": "PAPER-CFAP4-2021",
+   "topic_ref": "3",
+   "verification_status": "verified_official",
+   "source_ref": "ICAP Directive 1.01 (Revised 2024) — Specific Examinable Knowledge Reference",
+   "review_status": "pending"
+  }
+ ]
+}
